@@ -11,7 +11,7 @@ from Parser import Parser
 import config as cfg
 from Saver import Saver
 from abc import ABC
-
+from Log import main_logger
 # base_url = 'https://www.tastemade.com/food'
 # tables_name = 'links4parse'
 
@@ -46,7 +46,7 @@ class Tastemade_com_food(Parser, ABC):
         steps_cooking = ""
         for step in steps_cooking_list:
             steps_cooking += cfg.custom_splitter + step
-        print(steps_cooking, 'steps_cooking')
+        main_logger.debug(steps_cooking, 'steps_cooking')
         photo_links = 'https:' + soup.find('img', class_='u-photo')['src']
         # example image link https://truffle-assets.imgix.net/8238b21d-l.png?auto=compress,format&fm=pjpg&w=1200
         video_link = soup.find('video')['src']

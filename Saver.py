@@ -1,7 +1,7 @@
 import config as cfg
 from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 import re
-
+from Log import main_logger
 
 class Saver:
     """сохраняет результаты в SQL"""
@@ -15,7 +15,7 @@ class Saver:
 
         self.cursor.execute(_SQL)
         table_exist = self.cursor.fetchone()
-        print(table_exist, _SQL)
+        main_logger.debug(table_exist, _SQL)
         if table_exist:
             _SQL = "INSERT INTO "+content['table_name']+" ("
             for k, v in content.items():
@@ -30,7 +30,7 @@ class Saver:
             #+ str([k for k, v in content.items() if k != 'table_name'])[1:-1] + """) """
             # _SQL += """VALUES (""" + str([v for k, v in content.items() if k != 'table_name'])[1:-1] + """);"""
             _SQL = re.sub(r'[^\w\s!?.,;:@#$%^&*№><~`\'\"\[\]()]', "", _SQL)
-            print(_SQL)
+            main_logger.debug(_SQL)
             try:
                 self.cursor.execute(_SQL)
             except Exception as e:
@@ -51,20 +51,14 @@ class Saver:
         _SQL += """("%s", "%s")""" % (home_site_page, list_of_links[i])
         self.cursor.execute(_SQL)
 
-    def add_log(self,  invoke_attributes, status):
-        # time_stump, invoke_class, invoke_method, status
-        print(status)
-        _SQL = "INSERT INTO tracker (invoke_class, invoke_method, status) VALUES('%s', '%s', '%s')" \
-               % (invoke_attributes.__class__.__name__, invoke_attributes.__dir__()[1], status)
-        print(invoke_attributes.__dir__())
-        self.cursor.execute(_SQL)
+    # % (invoke_attributes.__class__.__name__, invoke_attributes.__dir__()[1], status)
 
 # with UseDatabase(cfg.dbconfig) as cursor:
 #     _sql = """show tables"""
 #     cursor.execute(_sql)
 #     data = cursor.fetchall()
-#     print(data)
+#     main_logger.debug(data)
 
-# print(type(my_get))
+# main_logger.debug(type(my_get))
 # s = Saver()
 # s.add_item_content_to_sql(my_get)

@@ -4,6 +4,7 @@ import config as cfg
 import requests
 
 from Saver import Saver
+from Log import main_logger
 
 
 class Parser(ABC):
@@ -59,10 +60,10 @@ class Parser(ABC):
                                              'socksVersion': 4}, headers=headers, timeout=(4, 8))
             res.raise_for_status()
             return res.text
-        except:
+        except Exception as ex:
             # пока запрос не принес результата
             self.proxy_manager.del_proxy(proxy)
             self.make_proxy_request(url)
 
-        print('make_proxy_request to %s done' % url)
+        main_logger.debug('make_proxy_request to %s done' % url)
 

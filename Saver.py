@@ -1,10 +1,4 @@
-import config as cfg
-from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 import re
-
-my_get = {'table_name': 'food_recipe', 'title': 'Васильев'}
-
-# не пустые ли все нужные переменные
 
 
 class Saver:
@@ -31,8 +25,6 @@ class Saver:
                 if k != 'table_name':
                     _SQL += "'" + v + "', "
             _SQL = _SQL[0: -2] + """);"""
-            #+ str([k for k, v in content.items() if k != 'table_name'])[1:-1] + """) """
-            # _SQL += """VALUES (""" + str([v for k, v in content.items() if k != 'table_name'])[1:-1] + """);"""
             _SQL = re.sub(r'[^\w\s!?.,;:@#$%^&*№><~`\'\"\[\]()]', "", _SQL)
             print(_SQL)
             try:

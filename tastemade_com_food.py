@@ -1,5 +1,5 @@
 from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
-import Proxy_manager as ex
+
 import logging
 from random import choice
 from concurrent.futures import ThreadPoolExecutor
@@ -54,7 +54,14 @@ class Tastemade_com_food(Parser, ABC):
         # https://renditions3-tastemade.akamaized.net/e5d6ceea-spring-rolls-sakura-petals-l/mp4/e5d6ceea-spring-rolls-sakura-petals-l-540-2000-mp4.mp4
         self.items_count+=1
         self.saver.add_log(self, '%s, item %d ' % (url, self.items_count))
-        return {'table_name':'food_recipe', 'title':title, 'slogan':slogan, 'ingredients':ingredients, 'steps':steps_cooking, 'photo_links':photo_links, 'video_link':video_link, 'home_url_id':'0'}
+        return {'table_name': 'food_recipe',
+                'title': title,
+                'slogan': slogan,
+                'ingredients': ingredients,
+                'steps': steps_cooking,
+                'photo_links': photo_links,
+                'video_link': video_link,
+                'home_url_id': '0'}
 
 
 # def get_catalog_pages(home_site_page) -> list:

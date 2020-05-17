@@ -16,7 +16,6 @@ class ProxyManager:
         self.proxies = []
 
     def get_proxies(self) -> 'list of proxies':
-        self.update_proxies()
         while self.proxies == []:
             print('self.proxies == []')
             self.update_proxies()
@@ -29,7 +28,7 @@ class ProxyManager:
         self.refresh_proxies_status()
         self.proxies = [proxy for proxy, options in self.proxy_options.items() if options.get('alive')]
         self.proxy_options = {proxy: options for proxy, options in self.proxy_options.items() if options.get('alive')}
-        print('update_proxies done')
+        print('update_proxies done, %d alive proxies' % len(self.proxies))
 
     def update_proxies_pretenders(self):
         """перезаписывает список proxies для тестирования на пригодность"""
@@ -50,7 +49,7 @@ class ProxyManager:
             self.proxy_options = proxies
         except Exception as e:
             logging.error('Unable to update proxy list, exception : {}'.format(e))
-        print('update_proxies_pretenders done')
+        print('update_proxies_pretenders done, got %d proxies' % len(self.proxy_options))
 
     def refresh_proxies_status(self):
         """тестирует proxy на пригодность"""

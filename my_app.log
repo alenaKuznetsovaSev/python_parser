@@ -1,0 +1,3 @@
+2020-05-17 18:26:02,575 — my_test_logger — DEBUG — test msg from my_log
+2020-05-17 18:26:52,640 — my_test_logger — INFO — test msg from my_log
+2020-05-17 18:26:57,464 — my_test_logger — INFO — test msg from my_log

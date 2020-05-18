@@ -9,7 +9,6 @@ my_get = {'table_name': 'food_recipe', 'title': 'Васильев'}
 
 if __name__ == '__main__':
     with UseDatabase(cfg.dbconfig) as cursor:
-
         saver = Saver(cursor)
         proxy_manager = ProxyManager()
         current_parser = Tastemade_com_food('https://www.tastemade.com/food', saver, proxy_manager)

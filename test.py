@@ -1,5 +1,6 @@
-from Log import main_logger
+proxies = ['11:2', '123:4', '22:1']
 
-main_logger.debug('debug')
-
+print(proxies)
+proxies.pop('11:2')
+print(proxies)
 

@@ -34,6 +34,7 @@ class Tastemade_com_food(Parser, ABC):
         """grab title, slogan, ingredients[], steps of cooking[], image_link and link to video
             #https://www.tastemade.com/videos/spring-rolls-with-sakura-petals
             """
+        main_logger.debug('start parse_item_page')
         page_html = self.make_proxy_request(url)
         soup = BeautifulSoup(page_html, 'lxml')
         title = soup.find('h1', class_='white').text
@@ -46,14 +47,15 @@ class Tastemade_com_food(Parser, ABC):
         steps_cooking = ""
         for step in steps_cooking_list:
             steps_cooking += cfg.custom_splitter + step
-        main_logger.debug(steps_cooking, 'steps_cooking')
+        main_logger.debug('steps_cooking - %s' % steps_cooking)
         photo_links = 'https:' + soup.find('img', class_='u-photo')['src']
         # example image link https://truffle-assets.imgix.net/8238b21d-l.png?auto=compress,format&fm=pjpg&w=1200
         video_link = soup.find('video')['src']
         # example video link
         # https://renditions3-tastemade.akamaized.net/e5d6ceea-spring-rolls-sakura-petals-l/mp4/e5d6ceea-spring-rolls-sakura-petals-l-540-2000-mp4.mp4
         self.items_count+=1
-        self.saver.add_log(self, '%s, item %d ' % (url, self.items_count))
+        main_logger.debug('url - %s, item - %d ' % (url, self.items_count))
+        main_logger.debug('parse_item_page done')
         return {'table_name': 'food_recipe',
                 'title': title,
                 'slogan': slogan,

@@ -51,7 +51,7 @@ class Parser(ABC):
     def make_proxy_request(self, url) -> str:
         """берет случайный прокси из списка proxies и пытается сделать запрос к целевому сайту для парсинга.
         если это не удается - удаляет такой прокси из списка proxies и повторяет снова."""
-
+        main_logger.debug('start make_proxy_request')
         proxy = self.proxy_manager.get_random_proxy()
         headers = cfg.random_headers()
 
@@ -59,11 +59,11 @@ class Parser(ABC):
             res = requests.get(url, proxies={'proxyType': 'manual', 'https': proxy, 'socksProxy': proxy,
                                              'socksVersion': 4}, headers=headers, timeout=(4, 8))
             res.raise_for_status()
+            main_logger.debug('make_proxy_request to %s done' % url)
             return res.text
         except Exception as ex:
             # пока запрос не принес результата
+            main_logger.error('make_proxy_request exception %s' % proxy)
             self.proxy_manager.del_proxy(proxy)
-            self.make_proxy_request(url)
-
-        main_logger.debug('make_proxy_request to %s done' % url)
+            return self.make_proxy_request(url)
 

@@ -15,8 +15,9 @@ class Saver:
 
         self.cursor.execute(_SQL)
         table_exist = self.cursor.fetchone()
-        main_logger.debug(table_exist, _SQL)
+
         if table_exist:
+            main_logger.debug("table %s exist " % content['table_name'])
             _SQL = "INSERT INTO "+content['table_name']+" ("
             for k, v in content.items():
                 if k != 'table_name':
@@ -27,18 +28,15 @@ class Saver:
                 if k != 'table_name':
                     _SQL += "'" + v + "', "
             _SQL = _SQL[0: -2] + """);"""
-            #+ str([k for k, v in content.items() if k != 'table_name'])[1:-1] + """) """
-            # _SQL += """VALUES (""" + str([v for k, v in content.items() if k != 'table_name'])[1:-1] + """);"""
             _SQL = re.sub(r'[^\w\s!?.,;:@#$%^&*№><~`\'\"\[\]()]', "", _SQL)
-            main_logger.debug(_SQL)
             try:
                 self.cursor.execute(_SQL)
             except Exception as e:
-                self.add_log(self, 'False')
+                main_logger.error("we couldn`t insert into %s this SQL - %s " % (content['table_name'], _SQL))
+                main_logger.error('error msg', e)
                 return False, e
         else:
-
-            self.add_log(self, 'table %s is not exist' % content['table_name'])
+            main_logger.warn("table %s does not exist " % content['table_name'])
             return False
         return True
 
@@ -49,7 +47,11 @@ class Saver:
             _SQL += """("%s", "%s"), """ % (home_site_page, list_of_links[i])
         i = + 1
         _SQL += """("%s", "%s")""" % (home_site_page, list_of_links[i])
-        self.cursor.execute(_SQL)
+        try:
+            self.cursor.execute(_SQL)
+        except Exception as e:
+            main_logger.error("we couldn`t insert into links4parse this SQL - %s " % _SQL)
+            main_logger.error('error msg', e)
 
     # % (invoke_attributes.__class__.__name__, invoke_attributes.__dir__()[1], status)
 

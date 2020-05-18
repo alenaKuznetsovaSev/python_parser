@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 from random import choice
 from Log import main_logger
 
-
 class ProxyManager:
 
     def __init__(self):
@@ -38,13 +37,13 @@ class ProxyManager:
         self.refresh_proxies_status()
         self.proxies = [proxy for proxy, options in self.proxy_options.items() if options.get('alive')]
         self.proxy_options = {proxy: options for proxy, options in self.proxy_options.items() if options.get('alive')}
-        main_logger.debug('update_proxies done %d' % len(self.proxies))
+        main_logger.debug('update_proxies done %d alive proxies' % len(self.proxies))
 
     def update_proxies_pretenders(self):
         """перезаписывает список proxies для тестирования на пригодность"""
         main_logger.debug('start update_proxies_pretenders')
         try:
-            proxies = {}
+            proxy_options = {}
             # sources of proxy list: https://www.free-proxy-list.net/  https://www.socks-proxy.net/
             response = requests.get('https://www.free-proxy-list.net/', headers=self.headers, timeout=(9, 27))
 
@@ -54,25 +53,23 @@ class ProxyManager:
                 info = p.find_all('td')
                 if len(info):
                     proxy = ':'.join([info[0].text, info[1].text])
-                    proxies.update({proxy: {'country_code': info[2].text,
+                    proxy_options.update({proxy: {'country_code': info[2].text,
                                             'country': info[3].text,
                                             'privacy': info[4].text,
-                                            'google': info[5].text,
-                                            'https': info[6].text,
                                             'last_checked': None,
                                             'alive': True,
                                             'detected_ip': 'Not checked yet',
                                             'response_headers': 'Not checked yet'}})
-            self.proxy_options = proxies
-            # if not proxies:
-            #     main_logger.warn('get no proxies in update_proxies_pretenders')
-            #     main_logger.warn('bad header - %s' % self.headers)
-            #     main_logger.debug('update headers')
-            #     self.headers = cfg.random_headers()
-            #     main_logger.debug('call update_proxies_pretenders again')
-            #     self.update_proxies()
-            # else:
-            #     main_logger.debug('useful headers - %s' % self.headers)
+            self.proxy_options = proxy_options
+            if not proxy_options:
+                main_logger.warn('get no proxies in update_proxies_pretenders')
+                main_logger.warn('bad header - %s' % self.headers)
+                main_logger.debug('update headers')
+                self.headers = cfg.random_headers()
+                main_logger.debug('call update_proxies_pretenders again')
+                self.update_proxies_pretenders()
+            else:
+                main_logger.debug('useful headers - %s' % self.headers)
         except Exception as e:
             logging.error('Unable to update proxy list, exception : {}'.format(e))
         main_logger.debug('update_proxies_pretenders done %d' % len(self.proxy_options))
@@ -100,13 +97,14 @@ class ProxyManager:
                 info['alive'] = False
                 info['response_headers'] = e
                 info['detected_ip'] = 'Error!!! Have not response server!'
-                # main_logger.error(e)
             else:
                 info['alive'] = True
             return {proxy: info}
         with self.thread_pool as tp:
-            print(self.proxy_options)
-            results = [tp.submit(__check_proxy_status, k, v) for k, v in self.proxy_options.items()]
+            try:
+                results = [tp.submit(__check_proxy_status, k, v) for k, v in self.proxy_options.items()]
+            except Exception as ex:
+                print(ex)
         for res in results:
             result = res.result()
             self.proxy_options.update(result)
@@ -114,7 +112,9 @@ class ProxyManager:
 
     def del_proxy(self, proxy) -> None:
         """удаляет proxy из списка proxies, если список опустел, запрашивает его наполнение"""
-        self.proxies.pop(proxy)
+        main_logger.debug('del proxy - %s' % proxy)
+        self.proxies.remove(proxy)
+        self.proxy_options.pop(proxy)
         if not self.proxies:
             self.get_proxies()
 

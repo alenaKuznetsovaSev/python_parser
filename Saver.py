@@ -1,12 +1,15 @@
 import config as cfg
 from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 import re
-from Log import main_logger
+import Log
+
 
 class Saver:
     """сохраняет результаты в SQL"""
 
     def __init__(self, cursor):
+        self.logger = Log.get_logger(__name__)
+        self.logger.debug('Saver was created')
         self.cursor = cursor
 
     def add_item_content_to_sql(self, content):
@@ -17,7 +20,7 @@ class Saver:
         table_exist = self.cursor.fetchone()
 
         if table_exist:
-            main_logger.debug("table %s exist " % content['table_name'])
+            self.logger.debug("table %s exist " % content['table_name'])
             _SQL = "INSERT INTO "+content['table_name']+" ("
             for k, v in content.items():
                 if k != 'table_name':
@@ -32,11 +35,11 @@ class Saver:
             try:
                 self.cursor.execute(_SQL)
             except Exception as e:
-                main_logger.error("we couldn`t insert into %s this SQL - %s " % (content['table_name'], _SQL))
-                main_logger.error('error msg', e)
+                self.logger.error("we couldn`t insert into %s this SQL - %s " % (content['table_name'], _SQL))
+                self.logger.error('error msg', e)
                 return False, e
         else:
-            main_logger.warn("table %s does not exist " % content['table_name'])
+            self.logger.warn("table %s does not exist " % content['table_name'])
             return False
         return True
 
@@ -50,8 +53,8 @@ class Saver:
         try:
             self.cursor.execute(_SQL)
         except Exception as e:
-            main_logger.error("we couldn`t insert into links4parse this SQL - %s " % _SQL)
-            main_logger.error('error msg', e)
+            self.logger.error("we couldn`t insert into links4parse this SQL - %s " % _SQL)
+            self.logger.error('error msg', e)
 
     # % (invoke_attributes.__class__.__name__, invoke_attributes.__dir__()[1], status)
 

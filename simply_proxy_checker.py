@@ -11,7 +11,7 @@ webdriver.DesiredCapabilities.FIREFOX['proxy'] = {
 
 profile = webdriver.FirefoxProfile()
 profile.set_preference("browser.privatebrowsing.autostart", True)
-#profile.set_preference("general.useragent.override", "[user-agent string]")
+# profile.set_preference("general.useragent.override", "[user-agent string]")
 
 with webdriver.Firefox() as driver:
     # Open URL

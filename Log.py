@@ -25,7 +25,3 @@ def get_logger(logger_name):
     # with this pattern, it's rarely necessary to propagate the error up to parent
     logger.propagate = False
     return logger
-
-
-main_logger = get_logger('global logger')
-

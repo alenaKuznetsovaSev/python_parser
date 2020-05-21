@@ -1,3 +1,30 @@
+2020-05-19 17:24:26,879 — __main__ — INFO — program started
+2020-05-19 17:24:26,884 — Saver — DEBUG — Saver was created
+2020-05-19 17:24:26,885 — Parser — DEBUG — start parse_item_page
+2020-05-19 17:24:26,885 — Parser — DEBUG — start make_proxy_request
+2020-05-19 17:24:26,885 — Proxy_manager — DEBUG — в списке proxies[] нет живых. Запрашиваю новый список.
+2020-05-19 17:24:26,885 — Proxy_manager — DEBUG — start update_proxies
+2020-05-19 17:24:26,885 — Proxy_manager — DEBUG — start update_proxies_pretenders
+2020-05-19 17:24:27,512 — Proxy_manager — DEBUG — useful headers - {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/png,image/*;q=0.8,*/*;q=0.5', 'Accept-Encoding': 'gzip', 'Accept-Language': 'ua, en-gb'}
+2020-05-19 17:24:27,512 — Proxy_manager — DEBUG — update_proxies_pretenders done 300
+2020-05-19 17:24:27,512 — Proxy_manager — DEBUG — start refresh_proxies_status
+2020-05-19 17:24:57,330 — Proxy_manager — DEBUG — refresh_proxies_status done 300
+2020-05-19 17:24:57,331 — Proxy_manager — DEBUG — update_proxies done 53 alive proxies
+2020-05-19 17:25:01,339 — Parser — ERROR — make_proxy_request exception 1.20.97.96:54205
+2020-05-19 17:25:01,340 — Proxy_manager — DEBUG — del proxy - 1.20.97.96:54205
+2020-05-19 17:25:01,340 — Parser — DEBUG — start make_proxy_request
+2020-05-19 17:25:05,348 — Parser — ERROR — make_proxy_request exception 37.120.192.154:8080
+2020-05-19 17:25:05,348 — Proxy_manager — DEBUG — del proxy - 37.120.192.154:8080
+2020-05-19 17:25:05,351 — Parser — DEBUG — start make_proxy_request
+2020-05-19 17:25:09,359 — Parser — ERROR — make_proxy_request exception 195.69.218.198:47357
+2020-05-19 17:25:09,360 — Proxy_manager — DEBUG — del proxy - 195.69.218.198:47357
+2020-05-19 17:25:09,360 — Parser — DEBUG — start make_proxy_request
+2020-05-19 17:25:11,026 — Parser — DEBUG — make_proxy_request to https://www.tastemade.com/videos/spring-rolls-with-sakura-petals done
+2020-05-19 17:25:11,067 — Parser — DEBUG — steps_cooking - MyCuStOmSpLiTerBoil somen noodles for 2 minutes, then rinse with cold water and drain.MyCuStOmSpLiTerCut out sliced ham into sakura (cherry blossom) petal shapes. MyCuStOmSpLiTerDip rice paper into water for a few seconds and place them on a cutting board.MyCuStOmSpLiTerLayer the somen noodles, Kinshi-Tamago, shredded vegetables, spring mix, and shrimp (in this order).MyCuStOmSpLiTerPlace sakura petals and chervil around the filling and fold the bottom of the wrapper and roll up over the ingredients.
+2020-05-19 17:25:11,069 — Parser — DEBUG — url - https://www.tastemade.com/videos/spring-rolls-with-sakura-petals, item - 1
+2020-05-19 17:25:11,069 — Parser — DEBUG — parse_item_page done
+2020-05-19 17:25:11,072 — Saver — DEBUG — table food_recipe exist
+2020-05-19 17:25:11,083 — __main__ — INFO — program finished
 2020-05-21 18:50:19,262 — __main__ — DEBUG — start navigate
 2020-05-21 18:51:47,644 — __main__ — DEBUG — driver got http://spys.one/proxys/US/
 2020-05-21 18:55:59,789 — bot — DEBUG — start navigate

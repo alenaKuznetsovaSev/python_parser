@@ -4,7 +4,7 @@ import config as cfg
 import requests
 
 from Saver import Saver
-from Log import main_logger
+import Log
 
 
 class Parser(ABC):
@@ -13,11 +13,13 @@ class Parser(ABC):
     saver = None
     proxy_manager = None
     items_count = 0
+    logger = None
 
     def __init__(self, base_url, saver, proxy_manager):
         self.base_url = base_url
         self.saver = saver
         self.proxy_manager = proxy_manager
+        self.logger = Log.get_logger(__name__)
 
     @abstractmethod
     def get_pagination_links(self, url) -> list:
@@ -51,7 +53,7 @@ class Parser(ABC):
     def make_proxy_request(self, url) -> str:
         """берет случайный прокси из списка proxies и пытается сделать запрос к целевому сайту для парсинга.
         если это не удается - удаляет такой прокси из списка proxies и повторяет снова."""
-        main_logger.debug('start make_proxy_request')
+        self.logger.debug('start make_proxy_request')
         proxy = self.proxy_manager.get_random_proxy()
         headers = cfg.random_headers()
 
@@ -59,11 +61,11 @@ class Parser(ABC):
             res = requests.get(url, proxies={'proxyType': 'manual', 'https': proxy, 'socksProxy': proxy,
                                              'socksVersion': 4}, headers=headers, timeout=(4, 8))
             res.raise_for_status()
-            main_logger.debug('make_proxy_request to %s done' % url)
+            self.logger.debug('make_proxy_request to %s done' % url)
             return res.text
         except Exception as ex:
             # пока запрос не принес результата
-            main_logger.error('make_proxy_request exception %s' % proxy)
+            self.logger.error('make_proxy_request exception %s' % proxy)
             self.proxy_manager.del_proxy(proxy)
             return self.make_proxy_request(url)
 

@@ -1355,3 +1355,611 @@
 2020-05-21 21:37:20,013 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('47.21.87.110:3129', 'HTTP (Squid)', 0, 6, 185, 63, 1);, have this error : 1062 (23000): Duplicate entry '47.21.87.110:3129' for key 'proxy' 
 2020-05-21 21:37:20,076 — bot — DEBUG — 150 === 45.32.224.69:8080, HTTP (Squid), NOA speed = 30, False, новый +, 21:05:20 15:54
 2020-05-21 21:37:20,077 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('45.32.224.69:8080', 'HTTP (Squid)', 0, 30, 1, 1, 1);, have this error : 1062 (23000): Duplicate entry '45.32.224.69:8080' for key 'proxy' 
+2020-05-21 21:55:53,619 — Saver — DEBUG — Saver was created
+2020-05-21 21:55:57,316 — bot — DEBUG — start navigate
+2020-05-21 21:55:59,694 — bot — DEBUG — driver got http://spys.one/proxys/US/
+2020-05-21 21:55:59,713 — bot — DEBUG — got cookies
+2020-05-21 21:56:03,834 — bot — DEBUG — 001 === 18.204.70.192:3128, HTTP (Squid), NOA speed = 11, False, 88% (37) +, 21:05:20 21:38
+2020-05-21 21:56:03,920 — bot — DEBUG — 003 === 166.98.140.51:3128, HTTPS (Squid), NOA speed = 30, False, 100% (9) +, 21:05:20 21:21
+2020-05-21 21:56:03,921 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('166.98.140.51:3128', 'HTTPS (Squid)', 0, 30, 9, 9, 1);, have this error : 1062 (23000): Duplicate entry '166.98.140.51:3128' for key 'proxy' 
+2020-05-21 21:56:03,980 — bot — DEBUG — 005 === 96.44.133.110:58690, SOCKS5, HIA speed = 30, False, 97% (2348) -, 21:05:20 21:06
+2020-05-21 21:56:03,981 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('96.44.133.110:58690', 'SOCKS5', 0, 30, 2420, 2348, 1);, have this error : 1062 (23000): Duplicate entry '96.44.133.110:58690' for key 'proxy' 
+2020-05-21 21:56:04,039 — bot — DEBUG — 007 === 162.243.175.93:1080, SOCKS5, HIA speed = 30, False, 87% (41) -, 21:05:20 21:00
+2020-05-21 21:56:04,040 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('162.243.175.93:1080', 'SOCKS5', 0, 30, 47, 41, 1);, have this error : 1062 (23000): Duplicate entry '162.243.175.93:1080' for key 'proxy' 
+2020-05-21 21:56:04,101 — bot — DEBUG — 009 === 72.210.252.152:46154, SOCKS5, HIA speed = 25, False, 77% (191) -, 21:05:20 20:58
+2020-05-21 21:56:04,102 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.210.252.152:46154', 'SOCKS5', 0, 25, 248, 191, 1);, have this error : 1062 (23000): Duplicate entry '72.210.252.152:46154' for key 'proxy' 
+2020-05-21 21:56:04,164 — bot — DEBUG — 011 === 69.61.200.104:36181, SOCKS5, HIA speed = 15, False, 89% (1515) -, 21:05:20 20:53
+2020-05-21 21:56:04,164 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('69.61.200.104:36181', 'SOCKS5', 0, 15, 1702, 1515, 1);, have this error : 1062 (23000): Duplicate entry '69.61.200.104:36181' for key 'proxy' 
+2020-05-21 21:56:04,224 — bot — DEBUG — 013 === 104.248.63.15:30588, SOCKS5, HIA speed = 30, True, 96% (272) -, 21:05:20 20:52
+2020-05-21 21:56:04,225 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.248.63.15:30588', 'SOCKS5', 1, 30, 283, 272, 1);, have this error : 1062 (23000): Duplicate entry '104.248.63.15:30588' for key 'proxy' 
+2020-05-21 21:56:04,292 — bot — DEBUG — 015 === 75.119.217.119:61799, SOCKS5, HIA speed = 12, False, 67% (2) -, 21:05:20 20:50
+2020-05-21 21:56:04,293 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('75.119.217.119:61799', 'SOCKS5', 0, 12, 2, 2, 1);, have this error : 1062 (23000): Duplicate entry '75.119.217.119:61799' for key 'proxy' 
+2020-05-21 21:56:04,407 — bot — DEBUG — 017 === 198.12.154.22:46861, SOCKS5, HIA speed = 15, False, 50% (23) -, 21:05:20 20:45
+2020-05-21 21:56:04,408 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('198.12.154.22:46861', 'SOCKS5', 0, 15, 46, 23, 1);, have this error : 1062 (23000): Duplicate entry '198.12.154.22:46861' for key 'proxy' 
+2020-05-21 21:56:04,481 — bot — DEBUG — 019 === 24.249.199.14:57335, SOCKS5, HIA speed = 18, False, 85% (1944) -, 21:05:20 20:43
+2020-05-21 21:56:04,482 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('24.249.199.14:57335', 'SOCKS5', 0, 18, 2287, 1944, 1);, have this error : 1062 (23000): Duplicate entry '24.249.199.14:57335' for key 'proxy' 
+2020-05-21 21:56:04,544 — bot — DEBUG — 021 === 207.246.104.166:1080, SOCKS5, HIA speed = 12, False, 71% (10) -, 21:05:20 20:38
+2020-05-21 21:56:04,545 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('207.246.104.166:1080', 'SOCKS5', 0, 12, 14, 10, 1);, have this error : 1062 (23000): Duplicate entry '207.246.104.166:1080' for key 'proxy' 
+2020-05-21 21:56:04,607 — bot — DEBUG — 023 === 98.162.25.29:31679, SOCKS5, HIA speed = 18, False, 85% (1314) -, 21:05:20 20:33
+2020-05-21 21:56:04,608 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('98.162.25.29:31679', 'SOCKS5', 0, 18, 1545, 1314, 1);, have this error : 1062 (23000): Duplicate entry '98.162.25.29:31679' for key 'proxy' 
+2020-05-21 21:56:04,672 — bot — DEBUG — 025 === 165.22.36.57:8080, HTTP, ANM speed = 30, False, 100% (17) +, 21:05:20 20:24
+2020-05-21 21:56:04,672 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('165.22.36.57:8080', 'HTTP', 0, 30, 17, 17, 1);, have this error : 1062 (23000): Duplicate entry '165.22.36.57:8080' for key 'proxy' 
+2020-05-21 21:56:04,735 — bot — DEBUG — 027 === 96.3.215.215:3128, HTTPS (Squid), NOA speed = 30, False, 67% (29) +, 21:05:20 19:48
+2020-05-21 21:56:04,735 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('96.3.215.215:3128', 'HTTPS (Squid)', 0, 30, 43, 29, 1);, have this error : 1062 (23000): Duplicate entry '96.3.215.215:3128' for key 'proxy' 
+2020-05-21 21:56:04,795 — bot — DEBUG — 029 === 38.143.68.66:8080, HTTP, ANM speed = 30, False, 100% (4) +, 21:05:20 19:42
+2020-05-21 21:56:04,796 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('38.143.68.66:8080', 'HTTP', 0, 30, 4, 4, 1);, have this error : 1062 (23000): Duplicate entry '38.143.68.66:8080' for key 'proxy' 
+2020-05-21 21:56:04,863 — bot — DEBUG — 031 === 69.162.64.10:5836, HTTPS (Squid), NOA speed = 25, False, 67% (4) +, 21:05:20 19:22
+2020-05-21 21:56:04,863 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('69.162.64.10:5836', 'HTTPS (Squid)', 0, 25, 5, 4, 1);, have this error : 1062 (23000): Duplicate entry '69.162.64.10:5836' for key 'proxy' 
+2020-05-21 21:56:04,925 — bot — DEBUG — 033 === 184.90.114.134:3128, HTTPS, HIA speed = 11, False, 22% (21) -, 21:05:20 19:18
+2020-05-21 21:56:04,926 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('184.90.114.134:3128', 'HTTPS', 0, 11, 95, 21, 1);, have this error : 1062 (23000): Duplicate entry '184.90.114.134:3128' for key 'proxy' 
+2020-05-21 21:56:04,985 — bot — DEBUG — 035 === 198.12.154.22:50358, SOCKS5, HIA speed = 25, False, 70% (32) -, 21:05:20 19:09
+2020-05-21 21:56:04,986 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('198.12.154.22:50358', 'SOCKS5', 0, 25, 45, 32, 1);, have this error : 1062 (23000): Duplicate entry '198.12.154.22:50358' for key 'proxy' 
+2020-05-21 21:56:05,047 — bot — DEBUG — 037 === 192.169.139.161:8975, SOCKS5, HIA speed = 17, False, 47% (959) -, 21:05:20 19:07
+2020-05-21 21:56:05,048 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('192.169.139.161:8975', 'SOCKS5', 0, 17, 2040, 959, 1);, have this error : 1062 (23000): Duplicate entry '192.169.139.161:8975' for key 'proxy' 
+2020-05-21 21:56:05,108 — bot — DEBUG — 039 === 47.88.16.118:3128, HTTP, ANM speed = 17, False, 55% (30) -, 21:05:20 19:04
+2020-05-21 21:56:05,108 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('47.88.16.118:3128', 'HTTP', 0, 17, 54, 30, 1);, have this error : 1062 (23000): Duplicate entry '47.88.16.118:3128' for key 'proxy' 
+2020-05-21 21:56:05,165 — bot — DEBUG — 041 === 184.176.166.8:17864, SOCKS5, HIA speed = 17, False, 82% (1912) -, 21:05:20 18:56
+2020-05-21 21:56:05,166 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('184.176.166.8:17864', 'SOCKS5', 0, 17, 2331, 1912, 1);, have this error : 1062 (23000): Duplicate entry '184.176.166.8:17864' for key 'proxy' 
+2020-05-21 21:56:05,225 — bot — DEBUG — 043 === 208.102.51.6:58208, SOCKS5, HIA speed = 12, False, 88% (2173) -, 21:05:20 18:52
+2020-05-21 21:56:05,226 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('208.102.51.6:58208', 'SOCKS5', 0, 12, 2469, 2173, 1);, have this error : 1062 (23000): Duplicate entry '208.102.51.6:58208' for key 'proxy' 
+2020-05-21 21:56:05,293 — bot — DEBUG — 045 === 72.210.252.143:46173, SOCKS5, HIA speed = 17, False, 87% (391) -, 21:05:20 18:45
+2020-05-21 21:56:05,294 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.210.252.143:46173', 'SOCKS5', 0, 17, 449, 391, 1);, have this error : 1062 (23000): Duplicate entry '72.210.252.143:46173' for key 'proxy' 
+2020-05-21 21:56:05,358 — bot — DEBUG — 047 === 107.150.42.67:3838, HTTP, ANM speed = 16, False, 50% (1) -, 21:05:20 18:42
+2020-05-21 21:56:05,358 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('107.150.42.67:3838', 'HTTP', 0, 16, 2, 1, 1);, have this error : 1062 (23000): Duplicate entry '107.150.42.67:3838' for key 'proxy' 
+2020-05-21 21:56:05,422 — bot — DEBUG — 049 === 104.245.69.26:3128, HTTP (Mikrotik), NOA speed = 12, False, 27% (229) -, 21:05:20 18:36
+2020-05-21 21:56:05,423 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.245.69.26:3128', 'HTTP (Mikrotik)', 0, 12, 848, 229, 1);, have this error : 1062 (23000): Duplicate entry '104.245.69.26:3128' for key 'proxy' 
+2020-05-21 21:56:05,511 — bot — DEBUG — 051 === 155.138.159.202:8080, HTTPS (Squid), NOA speed = 9, False, 29% (2) -, 21:05:20 18:34
+2020-05-21 21:56:05,512 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('155.138.159.202:8080', 'HTTPS (Squid)', 0, 9, 6, 2, 1);, have this error : 1062 (23000): Duplicate entry '155.138.159.202:8080' for key 'proxy' 
+2020-05-21 21:56:05,580 — bot — DEBUG — 053 === 72.221.164.35:60670, SOCKS5, HIA speed = 16, False, 86% (1057) -, 21:05:20 18:28
+2020-05-21 21:56:05,581 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.221.164.35:60670', 'SOCKS5', 0, 16, 1229, 1057, 1);, have this error : 1062 (23000): Duplicate entry '72.221.164.35:60670' for key 'proxy' 
+2020-05-21 21:56:05,641 — bot — DEBUG — 055 === 167.99.153.132:80, HTTP, HIA speed = 13, False, 27% (30) -, 21:05:20 18:14
+2020-05-21 21:56:05,642 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('167.99.153.132:80', 'HTTP', 0, 13, 111, 30, 1);, have this error : 1062 (23000): Duplicate entry '167.99.153.132:80' for key 'proxy' 
+2020-05-21 21:56:05,703 — bot — DEBUG — 057 === 66.23.233.90:3128, HTTP (Squid), NOA speed = 7, False, 24% (39) -, 21:05:20 18:00
+2020-05-21 21:56:05,704 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('66.23.233.90:3128', 'HTTP (Squid)', 0, 7, 162, 39, 1);, have this error : 1062 (23000): Duplicate entry '66.23.233.90:3128' for key 'proxy' 
+2020-05-21 21:56:05,770 — bot — DEBUG — 059 === 66.110.216.105:39431, SOCKS5, HIA speed = 18, False, 89% (1974) -, 21:05:20 17:50
+2020-05-21 21:56:05,770 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('66.110.216.105:39431', 'SOCKS5', 0, 18, 2217, 1974, 1);, have this error : 1062 (23000): Duplicate entry '66.110.216.105:39431' for key 'proxy' 
+2020-05-21 21:56:05,833 — bot — DEBUG — 061 === 97.74.6.64:17678, SOCKS5, HIA speed = 25, False, 82% (9) -, 21:05:20 17:49
+2020-05-21 21:56:05,834 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('97.74.6.64:17678', 'SOCKS5', 0, 25, 10, 9, 1);, have this error : 1062 (23000): Duplicate entry '97.74.6.64:17678' for key 'proxy' 
+2020-05-21 21:56:05,895 — bot — DEBUG — 063 === 104.238.97.215:27706, SOCKS5, HIA speed = 14, False, 60% (32) -, 21:05:20 17:49
+2020-05-21 21:56:05,896 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.238.97.215:27706', 'SOCKS5', 0, 14, 53, 32, 1);, have this error : 1062 (23000): Duplicate entry '104.238.97.215:27706' for key 'proxy' 
+2020-05-21 21:56:05,961 — bot — DEBUG — 065 === 157.230.154.241:9050, SOCKS5, HIA speed = 11, True, 76% (347) -, 21:05:20 17:47
+2020-05-21 21:56:05,962 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('157.230.154.241:9050', 'SOCKS5', 1, 11, 456, 347, 1);, have this error : 1062 (23000): Duplicate entry '157.230.154.241:9050' for key 'proxy' 
+2020-05-21 21:56:06,027 — bot — DEBUG — 067 === 104.223.200.146:1080, SOCKS5, HIA speed = 25, False, 50% (1) -, 21:05:20 17:47
+2020-05-21 21:56:06,028 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.223.200.146:1080', 'SOCKS5', 0, 25, 2, 1, 1);, have this error : 1062 (23000): Duplicate entry '104.223.200.146:1080' for key 'proxy' 
+2020-05-21 21:56:06,091 — bot — DEBUG — 069 === 72.11.148.222:56533, SOCKS5, HIA speed = 30, False, 96% (2554) -, 21:05:20 17:46
+2020-05-21 21:56:06,092 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.11.148.222:56533', 'SOCKS5', 0, 30, 2660, 2554, 1);, have this error : 1062 (23000): Duplicate entry '72.11.148.222:56533' for key 'proxy' 
+2020-05-21 21:56:06,155 — bot — DEBUG — 071 === 34.203.181.120:3128, HTTPS (Squid), NOA speed = 30, False, 62% (33) +, 21:05:20 17:46
+2020-05-21 21:56:06,156 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('34.203.181.120:3128', 'HTTPS (Squid)', 0, 30, 53, 33, 1);, have this error : 1062 (23000): Duplicate entry '34.203.181.120:3128' for key 'proxy' 
+2020-05-21 21:56:06,220 — bot — DEBUG — 073 === 35.207.184.17:80, HTTP, ANM speed = 3, False, 50% (11) -, 21:05:20 17:37
+2020-05-21 21:56:06,221 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.207.184.17:80', 'HTTP', 0, 3, 22, 11, 1);, have this error : 1062 (23000): Duplicate entry '35.207.184.17:80' for key 'proxy' 
+2020-05-21 21:56:06,283 — bot — DEBUG — 075 === 35.187.232.65:3128, HTTPS (Squid), NOA speed = 4, False, 33% (1) +, 21:05:20 17:11
+2020-05-21 21:56:06,284 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.187.232.65:3128', 'HTTPS (Squid)', 0, 4, 3, 1, 1);, have this error : 1062 (23000): Duplicate entry '35.187.232.65:3128' for key 'proxy' 
+2020-05-21 21:56:06,346 — bot — DEBUG — 077 === 199.188.89.172:8000, HTTP, ANM speed = 3, True, 5% (1) -, 21:05:20 16:51
+2020-05-21 21:56:06,347 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('199.188.89.172:8000', 'HTTP', 1, 3, 20, 1, 1);, have this error : 1062 (23000): Duplicate entry '199.188.89.172:8000' for key 'proxy' 
+2020-05-21 21:56:06,411 — bot — DEBUG — 079 === 216.45.60.108:58780, SOCKS5, HIA speed = 14, True, 34% (10) -, 21:05:20 16:44
+2020-05-21 21:56:06,412 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('216.45.60.108:58780', 'SOCKS5', 1, 14, 29, 10, 1);, have this error : 1062 (23000): Duplicate entry '216.45.60.108:58780' for key 'proxy' 
+2020-05-21 21:56:06,474 — bot — DEBUG — 081 === 192.119.203.170:48678, HTTP (Mikrotik), NOA speed = 13, False, 42% (161) -, 21:05:20 16:43
+2020-05-21 21:56:06,475 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('192.119.203.170:48678', 'HTTP (Mikrotik)', 0, 13, 383, 161, 1);, have this error : 1062 (23000): Duplicate entry '192.119.203.170:48678' for key 'proxy' 
+2020-05-21 21:56:06,538 — bot — DEBUG — 083 === 18.236.48.195:3128, HTTPS, ANM speed = 14, False, 36% (26) -, 21:05:20 16:41
+2020-05-21 21:56:06,538 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('18.236.48.195:3128', 'HTTPS', 0, 14, 72, 26, 1);, have this error : 1062 (23000): Duplicate entry '18.236.48.195:3128' for key 'proxy' 
+2020-05-21 21:56:06,605 — bot — DEBUG — 085 === 173.82.177.210:5836, HTTP (Squid), NOA speed = 15, False, 48% (30) -, 21:05:20 16:36
+2020-05-21 21:56:06,606 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('173.82.177.210:5836', 'HTTP (Squid)', 0, 15, 62, 30, 1);, have this error : 1062 (23000): Duplicate entry '173.82.177.210:5836' for key 'proxy' 
+2020-05-21 21:56:06,667 — bot — DEBUG — 087 === 174.70.241.7:24385, SOCKS5, HIA speed = 18, False, 77% (214) -, 21:05:20 16:30
+2020-05-21 21:56:06,668 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('174.70.241.7:24385', 'SOCKS5', 0, 18, 277, 214, 1);, have this error : 1062 (23000): Duplicate entry '174.70.241.7:24385' for key 'proxy' 
+2020-05-21 21:56:06,731 — bot — DEBUG — 089 === 74.208.112.84:8080, HTTP (Squid), NOA speed = 5, False, 52% (175) -, 21:05:20 16:20
+2020-05-21 21:56:06,732 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('74.208.112.84:8080', 'HTTP (Squid)', 0, 5, 336, 175, 1);, have this error : 1062 (23000): Duplicate entry '74.208.112.84:8080' for key 'proxy' 
+2020-05-21 21:56:06,796 — bot — DEBUG — 091 === 72.19.155.245:8080, HTTPS (Mikrotik), NOA speed = 16, False, 21% (9) +, 21:05:20 16:18
+2020-05-21 21:56:06,797 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.19.155.245:8080', 'HTTPS (Mikrotik)', 0, 16, 42, 9, 1);, have this error : 1062 (23000): Duplicate entry '72.19.155.245:8080' for key 'proxy' 
+2020-05-21 21:56:06,859 — bot — DEBUG — 093 === 70.165.64.210:48678, HTTP (Mikrotik), NOA speed = 11, False, 45% (162) -, 21:05:20 16:16
+2020-05-21 21:56:06,860 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('70.165.64.210:48678', 'HTTP (Mikrotik)', 0, 11, 360, 162, 1);, have this error : 1062 (23000): Duplicate entry '70.165.64.210:48678' for key 'proxy' 
+2020-05-21 21:56:06,922 — bot — DEBUG — 095 === 66.91.54.191:8080, HTTPS (Mikrotik), NOA speed = 6, False, 40% (314) -, 21:05:20 16:09
+2020-05-21 21:56:06,923 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('66.91.54.191:8080', 'HTTPS (Mikrotik)', 0, 6, 785, 314, 1);, have this error : 1062 (23000): Duplicate entry '66.91.54.191:8080' for key 'proxy' 
+2020-05-21 21:56:06,986 — bot — DEBUG — 097 === 50.241.148.97:8080, HTTPS (Mikrotik), NOA speed = 17, False, 27% (54) -, 21:05:20 16:03
+2020-05-21 21:56:06,986 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('50.241.148.97:8080', 'HTTPS (Mikrotik)', 0, 17, 200, 54, 1);, have this error : 1062 (23000): Duplicate entry '50.241.148.97:8080' for key 'proxy' 
+2020-05-21 21:56:07,057 — bot — DEBUG — 099 === 47.21.87.110:3129, HTTP (Squid), NOA speed = 6, False, 34% (63) +, 21:05:20 15:59
+2020-05-21 21:56:07,058 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('47.21.87.110:3129', 'HTTP (Squid)', 0, 6, 185, 63, 1);, have this error : 1062 (23000): Duplicate entry '47.21.87.110:3129' for key 'proxy' 
+2020-05-21 21:56:07,122 — bot — DEBUG — 101 === 45.32.224.69:8080, HTTP (Squid), NOA speed = 30, False, новый +, 21:05:20 15:54
+2020-05-21 21:56:07,123 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('45.32.224.69:8080', 'HTTP (Squid)', 0, 30, 1, 1, 1);, have this error : 1062 (23000): Duplicate entry '45.32.224.69:8080' for key 'proxy' 
+2020-05-21 21:56:07,184 — bot — DEBUG — 103 === 35.198.69.233:80, HTTP, HIA speed = 16, False, 58% (438) -, 21:05:20 15:49
+2020-05-21 21:56:07,185 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.198.69.233:80', 'HTTP', 0, 16, 755, 438, 1);, have this error : 1062 (23000): Duplicate entry '35.198.69.233:80' for key 'proxy' 
+2020-05-21 21:56:07,248 — bot — DEBUG — 105 === 24.245.100.212:48678, HTTP (Mikrotik), NOA speed = 15, False, 54% (827) -, 21:05:20 15:44
+2020-05-21 21:56:07,312 — bot — DEBUG — 107 === 24.113.38.57:48678, HTTPS (Mikrotik), NOA speed = 17, False, 47% (168) +, 21:05:20 15:43
+2020-05-21 21:56:07,391 — bot — DEBUG — 109 === 35.198.246.77:808, HTTPS, HIA speed = 7, False, 38% (6) -, 21:05:20 15:39
+2020-05-21 21:56:07,392 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.198.246.77:808', 'HTTPS', 0, 7, 15, 6, 1);, have this error : 1062 (23000): Duplicate entry '35.198.246.77:808' for key 'proxy' 
+2020-05-21 21:56:07,455 — bot — DEBUG — 111 === 167.71.125.152:8080, HTTP, ANM speed = 30, False, 100% (4) +, 21:05:20 15:38
+2020-05-21 21:56:07,524 — bot — DEBUG — 113 === 161.35.130.184:8080, HTTP, ANM speed = 30, False, 100% (6) +, 21:05:20 15:16
+2020-05-21 21:56:07,587 — bot — DEBUG — 115 === 149.28.104.226:3128, HTTP, ANM speed = 30, False, 97% (38) +, 21:05:20 15:08
+2020-05-21 21:56:07,650 — bot — DEBUG — 117 === 45.76.241.178:5836, HTTP (Squid), NOA speed = 17, False, 17% (1) +, 21:05:20 15:08
+2020-05-21 21:56:07,713 — bot — DEBUG — 119 === 12.105.130.3:3128, HTTP (Squid), NOA speed = 25, False, 67% (26) +, 21:05:20 14:54
+2020-05-21 21:56:07,778 — bot — DEBUG — 121 === 107.150.42.66:3838, HTTP, ANM speed = 12, False, 50% (3) -, 21:05:20 14:53
+2020-05-21 21:56:07,843 — bot — DEBUG — 123 === 104.238.132.80:8080, HTTP (Squid), NOA speed = 25, False, 61% (28) +, 21:05:20 14:49
+2020-05-21 21:56:07,907 — bot — DEBUG — 125 === 134.73.229.18:1080, SOCKS5, HIA speed = 25, False, 25% (1) -, 21:05:20 14:44
+2020-05-21 21:56:07,968 — bot — DEBUG — 127 === 174.76.35.29:36177, SOCKS5, HIA speed = 25, False, 79% (690) -, 21:05:20 14:35
+2020-05-21 21:56:08,029 — bot — DEBUG — 129 === 198.12.154.22:15687, SOCKS5, HIA speed = 25, False, 60% (39) -, 21:05:20 14:33
+2020-05-21 21:56:08,092 — bot — DEBUG — 131 === 98.143.147.146:25157, SOCKS5, HIA speed = 8, True, 17% (6) -, 21:05:20 13:37
+2020-05-21 21:56:08,154 — bot — DEBUG — 133 === 52.9.37.116:80, HTTP, HIA speed = 13, False, 50% (123) -, 21:05:20 13:34
+2020-05-21 21:56:08,218 — bot — DEBUG — 135 === 45.32.230.225:8080, HTTP (Squid), NOA speed = 25, False, 25% (1) +, 21:05:20 13:24
+2020-05-21 21:56:08,278 — bot — DEBUG — 137 === 104.199.126.1:80, HTTP, HIA speed = 14, False, 23% (32) -, 21:05:20 12:59
+2020-05-21 21:56:08,345 — bot — DEBUG — 139 === 167.71.172.18:9050, SOCKS5, HIA speed = 25, True, 12% (15) -, 21:05:20 12:53
+2020-05-21 21:56:08,408 — bot — DEBUG — 141 === 167.71.249.181:8888, HTTP (Squid), NOA speed = 5, False, 46% (216) -, 21:05:20 12:51
+2020-05-21 21:56:08,525 — bot — DEBUG — 143 === 104.223.200.151:1080, SOCKS5, HIA speed = 18, False, 50% (1) -, 21:05:20 12:48
+2020-05-21 21:56:08,618 — bot — DEBUG — 145 === 161.38.11.86:8080, HTTP (Mikrotik), NOA speed = 12, False, 36% (27) -, 21:05:20 12:37
+2020-05-21 21:56:08,686 — bot — DEBUG — 147 === 198.12.154.22:37916, SOCKS5, HIA speed = 11, False, 44% (23) -, 21:05:20 12:34
+2020-05-21 21:56:08,753 — bot — DEBUG — 149 === 52.168.34.113:80, HTTP, HIA speed = 12, False, 21% (11) +, 21:05:20 12:29
+2020-05-21 21:56:08,819 — bot — DEBUG — 151 === 173.82.176.190:5836, HTTP, ANM speed = 8, False, 22% (6) -, 21:05:20 12:01
+2020-05-21 21:56:08,884 — bot — DEBUG — 153 === 69.162.84.219:5836, HTTPS (Squid), NOA speed = 30, False, 67% (2) +, 21:05:20 11:42
+2020-05-21 21:56:08,955 — bot — DEBUG — 155 === 69.162.123.106:5836, HTTPS (Squid), NOA speed = 25, False, 22% (2) +, 21:05:20 11:41
+2020-05-21 21:56:09,030 — bot — DEBUG — 157 === 65.184.156.234:33247, HTTPS, HIA speed = 14, False, 27% (18) -, 21:05:20 11:35
+2020-05-21 21:56:09,096 — bot — DEBUG — 159 === 50.249.79.18:8080, HTTPS (Mikrotik), NOA speed = 25, False, 51% (324) -, 21:05:20 11:29
+2020-05-21 21:56:09,163 — bot — DEBUG — 161 === 38.90.33.62:80, HTTP, HIA speed = 9, True, 33% (98) -, 21:05:20 11:25
+2020-05-21 21:56:09,230 — bot — DEBUG — 163 === 167.172.136.107:80, HTTP, ANM speed = 25, True, 67% (20) +, 21:05:20 11:11
+2020-05-21 21:56:09,298 — bot — DEBUG — 165 === 50.233.228.147:8080, HTTP (Mikrotik), ANM speed = 10, True, 41% (403) -, 21:05:20 11:03
+2020-05-21 21:56:09,367 — bot — DEBUG — 167 === 104.245.69.17:3128, HTTP (Mikrotik), NOA speed = 13, True, 35% (442) -, 21:05:20 10:56
+2020-05-21 21:56:09,434 — bot — DEBUG — 169 === 207.144.111.230:8080, HTTPS, HIA speed = 4, False, 55% (396) -, 21:05:20 10:46
+2020-05-21 21:56:09,506 — bot — DEBUG — 171 === 3.15.179.209:8080, HTTP, ANM speed = 14, False, 50% (1) +, 21:05:20 10:27
+2020-05-21 21:56:09,598 — bot — DEBUG — 173 === 97.102.165.199:1080, SOCKS5, HIA speed = 9, False, 17% (3) -, 21:05:20 10:01
+2020-05-21 21:56:09,674 — bot — DEBUG — 175 === 54.213.25.122:9055, SOCKS5, HIA speed = 25, True, 13% (5) -, 21:05:20 09:52
+2020-05-21 21:56:09,744 — bot — DEBUG — 177 === 198.211.109.14:80, HTTP, HIA speed = 12, False, 47% (262) -, 21:05:20 09:39
+2020-05-21 21:56:09,812 — bot — DEBUG — 179 === 190.103.178.15:8080, HTTP, ANM speed = 15, False, 60% (27) +, 21:05:20 09:22
+2020-05-21 21:56:09,878 — bot — DEBUG — 181 === 75.119.217.119:47299, SOCKS5, HIA speed = 25, False, 67% (4) -, 21:05:20 09:01
+2020-05-21 21:56:09,948 — bot — DEBUG — 183 === 178.128.181.61:9050, SOCKS5, HIA speed = 16, True, 24% (42) -, 21:05:20 08:55
+2020-05-21 21:56:10,021 — bot — DEBUG — 185 === 198.12.154.22:17232, SOCKS5, HIA speed = 18, False, 52% (17) -, 21:05:20 08:50
+2020-05-21 21:56:10,091 — bot — DEBUG — 187 === 174.76.35.7:36171, SOCKS5, HIA speed = 17, False, 87% (153) -, 21:05:20 08:48
+2020-05-21 21:56:10,159 — bot — DEBUG — 189 === 34.209.124.157:3128, HTTP (Squid), NOA speed = 17, False, 63% (5) +, 21:05:20 08:46
+2020-05-21 21:56:10,229 — bot — DEBUG — 191 === 166.62.43.174:39272, SOCKS5, HIA speed = 17, False, 50% (2) -, 21:05:20 08:46
+2020-05-21 21:56:10,296 — bot — DEBUG — 193 === 52.43.61.135:80, HTTP, HIA speed = 12, False, 19% (39) -, 21:05:20 08:35
+2020-05-21 21:56:10,368 — bot — DEBUG — 195 === 96.30.53.124:3128, HTTP (Squid), NOA speed = 10, True, 24% (62) -, 21:05:20 08:30
+2020-05-21 21:56:10,436 — bot — DEBUG — 197 === 18.237.149.187:3128, HTTP (Squid), NOA speed = 14, False, 40% (2) -, 21:05:20 08:21
+2020-05-21 21:56:10,510 — bot — DEBUG — 199 === 34.213.43.94:3128, HTTP (Squid), NOA speed = 8, False, 100% (7) -, 21:05:20 08:14
+2020-05-21 21:56:10,580 — bot — DEBUG — 201 === 18.237.46.164:3128, HTTP (Squid), NOA speed = 13, False, 60% (6) +, 21:05:20 07:46
+2020-05-21 21:56:10,646 — bot — DEBUG — 203 === 68.183.111.90:80, HTTP, HIA speed = 4, False, 34% (132) -, 21:05:20 07:42
+2020-05-21 21:56:10,714 — bot — DEBUG — 205 === 18.237.152.19:3128, HTTP (Squid), NOA speed = 8, False, 65% (15) -, 21:05:20 07:19
+2020-05-21 21:56:10,784 — bot — DEBUG — 207 === 54.189.97.191:3128, HTTP (Squid), NOA speed = 4, False, 100% (2) +, 21:05:20 07:06
+2020-05-21 21:56:10,848 — bot — DEBUG — 209 === 69.92.133.126:8080, HTTP, HIA speed = 11, False, 50% (2) -, 21:05:20 05:52
+2020-05-21 21:56:10,916 — bot — DEBUG — 211 === 54.189.23.102:3128, HTTP (Squid), NOA speed = 14, False, 100% (2) +, 21:05:20 05:34
+2020-05-21 21:56:10,986 — bot — DEBUG — 213 === 173.245.239.12:17145, SOCKS5, HIA speed = 16, False, 91% (1405) -, 21:05:20 05:31
+2020-05-21 21:56:11,052 — bot — DEBUG — 215 === 18.237.139.73:3128, HTTP (Squid), NOA speed = 15, False, 70% (7) +, 21:05:20 05:07
+2020-05-21 21:56:11,120 — bot — DEBUG — 217 === 18.237.164.1:3128, HTTP (Squid), NOA speed = 25, False, 86% (12) +, 21:05:20 04:27
+2020-05-21 21:56:11,188 — bot — DEBUG — 219 === 18.237.213.226:3128, HTTP (Squid), NOA speed = 15, False, 79% (11) +, 21:05:20 04:17
+2020-05-21 21:56:11,258 — bot — DEBUG — 221 === 64.90.50.140:52814, SOCKS5, HIA speed = 15, True, 25% (1) -, 21:05:20 03:46
+2020-05-21 21:56:11,324 — bot — DEBUG — 223 === 104.211.29.96:80, HTTP, HIA speed = 14, False, 30% (60) +, 21:05:20 03:25
+2020-05-21 21:56:11,395 — bot — DEBUG — 225 === 104.238.97.215:48714, SOCKS5, HIA speed = 13, False, 38% (3) -, 21:05:20 02:51
+2020-05-21 21:56:11,463 — bot — DEBUG — 227 === 54.202.227.29:3128, HTTP (Squid), NOA speed = 17, False, 73% (16) +, 21:05:20 02:01
+2020-05-21 21:56:11,531 — bot — DEBUG — 229 === 184.178.172.5:15303, SOCKS5, HIA speed = 25, False, 80% (191) -, 21:05:20 01:50
+2020-05-21 21:56:11,598 — bot — DEBUG — 231 === 206.81.2.118:1080, SOCKS5, HIA speed = 30, False, 74% (42) -, 21:05:20 01:27
+2020-05-21 21:56:11,666 — bot — DEBUG — 233 === 18.236.115.59:3128, HTTP (Squid), NOA speed = 7, False, 90% (9) +, 21:05:20 00:45
+2020-05-21 21:56:11,737 — bot — DEBUG — 235 === 34.220.137.178:3128, HTTP (Squid), NOA speed = 18, False, 63% (5) -, 21:05:20 00:27
+2020-05-21 21:56:11,808 — bot — DEBUG — 237 === 54.202.73.59:3128, HTTP (Squid), NOA speed = 4, False, 100% (4) -, 21:05:20 00:18
+2020-05-21 21:56:11,880 — bot — DEBUG — 239 === 159.203.82.173:3128, HTTP, ANM speed = 13, False, 43% (42) +, 21:05:20 00:09
+2020-05-21 21:56:11,952 — bot — DEBUG — 241 === 66.214.103.50:3128, HTTPS (Mikrotik), NOA speed = 9, False, 33% (2) -, 20:05:20 23:59
+2020-05-21 21:56:12,023 — bot — DEBUG — 243 === 70.169.129.246:48678, HTTP (Mikrotik), NOA speed = 14, False, 29% (165) -, 20:05:20 23:49
+2020-05-21 21:56:12,096 — bot — DEBUG — 245 === 66.119.99.22:80, HTTP, ANM speed = 15, True, 17% (47) -, 20:05:20 23:39
+2020-05-21 21:56:12,165 — bot — DEBUG — 247 === 18.237.212.221:3128, HTTP (Squid), NOA speed = 16, False, 67% (2) +, 20:05:20 23:33
+2020-05-21 21:56:12,234 — bot — DEBUG — 249 === 18.236.216.147:3128, HTTP (Squid), NOA speed = 18, False, 67% (14) +, 20:05:20 23:32
+2020-05-21 21:56:12,301 — bot — DEBUG — 251 === 18.224.39.7:8080, HTTP, ANM speed = 30, False, 41% (11) +, 20:05:20 23:30
+2020-05-21 21:56:12,377 — bot — DEBUG — 253 === 107.178.4.215:35330, HTTP, HIA speed = 16, False, 18% (29) -, 20:05:20 23:26
+2020-05-21 21:56:12,446 — bot — DEBUG — 255 === 98.175.69.87:3128, HTTPS (Squid), NOA speed = 14, False, 15% (3) +, 20:05:20 23:25
+2020-05-21 21:56:12,515 — bot — DEBUG — 257 === 34.220.208.37:3128, HTTP (Squid), NOA speed = 7, False, 50% (6) +, 20:05:20 23:19
+2020-05-21 21:56:12,613 — bot — DEBUG — 259 === 69.162.97.94:5836, HTTPS (Squid), NOA speed = 17, False, 50% (1) -, 20:05:20 23:16
+2020-05-21 21:56:12,716 — bot — DEBUG — 261 === 64.227.96.117:8080, HTTP, ANM speed = 18, False, новый +, 20:05:20 23:09
+2020-05-21 21:56:12,797 — bot — DEBUG — 263 === 54.214.113.229:3128, HTTP (Squid), NOA speed = 16, False, 75% (3) +, 20:05:20 23:07
+2020-05-21 21:56:12,872 — bot — DEBUG — 265 === 54.189.74.233:3128, HTTP (Squid), NOA speed = 30, False, 50% (1) +, 20:05:20 23:06
+2020-05-21 21:56:12,948 — bot — DEBUG — 267 === 52.25.241.52:80, HTTP, HIA speed = 5, False, 21% (49) -, 20:05:20 23:05
+2020-05-21 21:56:13,017 — bot — DEBUG — 269 === 156.236.127.242:1080, SOCKS5, HIA speed = 25, False, 47% (9) -, 20:05:20 23:03
+2020-05-21 21:56:13,088 — bot — DEBUG — 271 === 75.119.217.119:49244, SOCKS5, HIA speed = 18, False, 80% (4) -, 20:05:20 22:57
+2020-05-21 21:56:13,166 — bot — DEBUG — 273 === 34.222.74.32:3128, HTTP (Squid), NOA speed = 16, False, 65% (11) +, 20:05:20 22:48
+2020-05-21 21:56:13,249 — bot — DEBUG — 275 === 104.45.128.122:80, HTTP, HIA speed = 13, False, 28% (68) -, 20:05:20 22:37
+2020-05-21 21:56:13,327 — bot — DEBUG — 277 === 18.237.45.182:3128, HTTP (Squid), NOA speed = 17, False, 50% (4) +, 20:05:20 22:27
+2020-05-21 21:56:13,400 — bot — DEBUG — 279 === 18.237.196.222:3128, HTTP (Squid), NOA speed = 15, False, 79% (15) -, 20:05:20 22:26
+2020-05-21 21:56:13,472 — bot — DEBUG — 281 === 173.82.105.53:80, HTTP, HIA speed = 8, False, 38% (127) +, 20:05:20 22:20
+2020-05-21 21:56:13,540 — bot — DEBUG — 283 === 107.178.6.30:8080, HTTP (Mikrotik), NOA speed = 17, False, 35% (184) -, 20:05:20 21:50
+2020-05-21 21:56:13,612 — bot — DEBUG — 285 === 64.225.26.38:80, HTTPS (Squid), NOA speed = 30, False, 33% (1) +, 20:05:20 21:04
+2020-05-21 21:56:13,717 — bot — DEBUG — 287 === 65.254.18.126:3128, HTTP (Squid), ANM speed = 6, False, 16% (6) -, 20:05:20 20:24
+2020-05-21 21:56:13,793 — bot — DEBUG — 289 === 67.219.116.234:8080, HTTPS (Mikrotik), NOA speed = 11, False, 18% (2) -, 20:05:20 19:20
+2020-05-21 21:56:13,867 — bot — DEBUG — 291 === 184.168.146.10:20255, SOCKS5, HIA speed = 13, False, 57% (8) -, 20:05:20 19:00
+2020-05-21 21:56:13,943 — bot — DEBUG — 293 === 98.143.144.40:25157, SOCKS5, HIA speed = 16, True, 13% (1) -, 20:05:20 18:57
+2020-05-21 21:56:14,017 — bot — DEBUG — 295 === 98.143.146.242:25157, SOCKS5, HIA speed = 16, True, 20% (6) -, 20:05:20 18:42
+2020-05-21 21:56:14,093 — bot — DEBUG — 297 === 50.62.31.62:28433, SOCKS5, HIA speed = 17, True, 51% (29) -, 20:05:20 18:37
+2020-05-21 21:56:14,168 — bot — DEBUG — 299 === 66.110.216.221:39603, SOCKS5, HIA speed = 17, False, 89% (632) -, 20:05:20 17:51
+2020-05-21 21:56:14,247 — bot — DEBUG — 301 === 173.82.119.172:5836, HTTPS, ANM speed = 13, False, 15% (6) -, 20:05:20 17:15
+2020-05-21 21:56:14,323 — bot — DEBUG — 303 === 64.90.51.174:52814, SOCKS5, HIA speed = 17, True, 25% (1) -, 20:05:20 17:04
+2020-05-21 21:56:14,392 — bot — DEBUG — 305 === 166.62.43.174:29578, SOCKS5, HIA speed = 25, False, 43% (3) -, 20:05:20 16:52
+2020-05-21 21:56:14,465 — bot — DEBUG — 307 === 165.227.216.91:80, HTTP, ANM speed = 30, False, 100% (3), 20:05:20 16:24
+2020-05-21 21:56:14,538 — bot — DEBUG — 309 === 157.245.7.40:8080, HTTP, ANM speed = 30, False, 17% (2) +, 20:05:20 15:04
+2020-05-21 21:56:14,612 — bot — DEBUG — 311 === 157.52.184.2:3129, HTTP, ANM speed = 30, False, 37% (7) +, 20:05:20 14:37
+2020-05-21 21:56:14,682 — bot — DEBUG — 313 === 72.210.252.134:46164, SOCKS5, HIA speed = 17, False, 81% (825) -, 20:05:20 14:28
+2020-05-21 21:56:14,763 — bot — DEBUG — 315 === 216.45.58.181:25157, SOCKS5, HIA speed = 17, True, 11% (2) -, 20:05:20 13:53
+2020-05-21 21:56:14,837 — bot — DEBUG — 317 === 50.62.61.96:28433, SOCKS5, HIA speed = 8, True, 50% (37) -, 20:05:20 13:30
+2020-05-21 21:56:14,908 — bot — DEBUG — 319 === 35.175.32.97:80, HTTP, HIA speed = 14, False, 27% (10) -, 20:05:20 13:20
+2020-05-21 21:56:14,988 — bot — DEBUG — 321 === 165.227.20.194:9050, SOCKS5, HIA speed = 25, True, 24% (178) -, 20:05:20 12:51
+2020-05-21 21:56:15,065 — bot — DEBUG — 323 === 74.92.2.70:80, HTTP, ANM speed = 11, True, 38% (48) +, 20:05:20 12:44
+2020-05-21 21:56:15,139 — bot — DEBUG — 325 === 35.198.144.214:3128, HTTP (Squid), NOA speed = 13, False, 53% (18) +, 20:05:20 12:30
+2020-05-21 21:56:15,213 — bot — DEBUG — 327 === 169.60.27.163:8080, HTTP (Squid), NOA speed = 30, False, 64% (7) +, 20:05:20 12:13
+2020-05-21 21:56:15,291 — bot — DEBUG — 329 === 155.138.159.113:8080, HTTP (Squid), NOA speed = 30, False, 70% (7) +, 20:05:20 11:48
+2020-05-21 21:56:15,368 — bot — DEBUG — 331 === 69.162.82.157:5836, HTTP (Squid), NOA speed = 16, False, 33% (1) -, 20:05:20 11:46
+2020-05-21 21:56:15,443 — bot — DEBUG — 333 === 54.189.64.196:3128, HTTP (Squid), NOA speed = 16, False, 52% (15) +, 20:05:20 11:38
+2020-05-21 21:56:15,515 — bot — DEBUG — 335 === 45.76.247.133:8080, HTTP (Squid), NOA speed = 30, False, 50% (1) +, 20:05:20 11:34
+2020-05-21 21:56:15,588 — bot — DEBUG — 337 === 45.63.0.39:8080, HTTP (Squid), NOA speed = 30, False, новый +, 20:05:20 11:34
+2020-05-21 21:56:15,660 — bot — DEBUG — 339 === 34.222.95.198:3128, HTTP (Squid), NOA speed = 4, False, 50% (1) +, 20:05:20 11:30
+2020-05-21 21:56:15,738 — bot — DEBUG — 341 === 3.21.82.29:80, HTTP, HIA speed = 10, False, 14% (1) +, 20:05:20 11:25
+2020-05-21 21:56:15,810 — bot — DEBUG — 343 === 162.244.83.133:3134, HTTP, ANM speed = 18, False, 50% (1) -, 20:05:20 11:15
+2020-05-21 21:56:15,885 — bot — DEBUG — 345 === 162.252.144.229:8181, HTTPS (Mikrotik), NOA speed = 4, True, 32% (102) -, 20:05:20 11:03
+2020-05-21 21:56:15,959 — bot — DEBUG — 347 === 155.138.158.162:8080, HTTP (Squid), NOA speed = 30, False, 22% (5) +, 20:05:20 10:58
+2020-05-21 21:56:16,032 — bot — DEBUG — 349 === 142.93.4.1:8080, HTTP, ANM speed = 30, False, 100% (4) +, 20:05:20 10:48
+2020-05-21 21:56:16,112 — bot — DEBUG — 351 === 12.139.101.97:80, HTTP, ANM speed = 30, True, 100% (2), 20:05:20 10:38
+2020-05-21 21:56:16,188 — bot — DEBUG — 353 === 184.168.146.10:32415, SOCKS5, HIA speed = 14, False, 60% (3) -, 20:05:20 10:22
+2020-05-21 21:56:16,267 — bot — DEBUG — 355 === 198.204.253.114:3128, HTTP, ANM speed = 4, False, 25% (104) -, 20:05:20 09:22
+2020-05-21 21:56:16,340 — bot — DEBUG — 357 === 216.198.188.26:51068, HTTP, HIA speed = 10, False, 38% (208) -, 20:05:20 09:09
+2020-05-21 21:56:16,430 — bot — DEBUG — 359 === 173.245.239.223:16938, SOCKS5, HIA speed = 17, False, 94% (361) -, 20:05:20 08:39
+2020-05-21 21:56:16,504 — bot — DEBUG — 361 === 96.87.184.101:43705, HTTP, HIA speed = 11, False, 53% (509) -, 20:05:20 07:51
+2020-05-21 21:56:16,577 — bot — DEBUG — 363 === 34.226.1.79:60088, HTTP (Squid), NOA speed = 30, False, 38% (3) +, 20:05:20 07:38
+2020-05-21 21:56:16,648 — bot — DEBUG — 365 === 3.226.57.156:80, HTTP, HIA speed = 12, False, 26% (12) +, 20:05:20 07:33
+2020-05-21 21:56:16,753 — bot — DEBUG — 367 === 54.202.227.8:3128, HTTP (Squid), NOA speed = 16, False, 67% (4) -, 20:05:20 05:38
+2020-05-21 21:56:16,858 — bot — DEBUG — 369 === 165.227.198.92:3128, HTTP, ANM speed = 18, False, 82% (14) +, 20:05:20 04:41
+2020-05-21 21:56:16,941 — bot — DEBUG — 371 === 66.36.238.101:5836, HTTP, ANM speed = 11, False, 20% (2) -, 20:05:20 04:06
+2020-05-21 21:56:17,025 — bot — DEBUG — 373 === 159.65.230.139:1080, SOCKS5, HIA speed = 16, False, 88% (22) -, 20:05:20 03:42
+2020-05-21 21:56:17,106 — bot — DEBUG — 375 === 138.197.106.52:80, HTTP, HIA speed = 30, False, 21% (10) -, 20:05:20 03:34
+2020-05-21 21:56:17,184 — bot — DEBUG — 377 === 104.192.3.174:8080, HTTP (Squid), NOA speed = 7, False, 17% (1) -, 20:05:20 02:14
+2020-05-21 21:56:17,261 — bot — DEBUG — 379 === 102.129.249.120:1080, SOCKS5, HIA speed = 30, False, 100% (6), 20:05:20 01:55
+2020-05-21 21:56:17,343 — bot — DEBUG — 381 === 18.222.120.193:3128, HTTP (Squid), ANM speed = 30, False, 70% (14) +, 20:05:20 01:15
+2020-05-21 21:56:17,427 — bot — DEBUG — 383 === 34.224.10.183:3128, HTTP (Squid), NOA speed = 8, False, 15% (2) +, 20:05:20 00:57
+2020-05-21 21:56:17,505 — bot — DEBUG — 385 === 75.151.213.85:8080, HTTPS, HIA speed = 11, False, 50% (1436) -, 20:05:20 00:19
+2020-05-21 21:56:17,581 — bot — DEBUG — 387 === 149.28.79.137:8081, HTTPS, HIA speed = 15, False, 42% (15) -, 19:05:20 23:25
+2020-05-21 21:56:17,661 — bot — DEBUG — 389 === 209.159.158.234:8080, HTTP (Squid), NOA speed = 9, False, 37% (177) -, 19:05:20 23:17
+2020-05-21 21:56:17,762 — bot — DEBUG — 391 === 192.169.156.163:80, HTTP, HIA speed = 12, False, 29% (51) -, 19:05:20 23:12
+2020-05-21 21:56:17,852 — bot — DEBUG — 393 === 45.33.70.113:8085, HTTPS (Squid), NOA speed = 30, False, 64% (23) +, 19:05:20 22:52
+2020-05-21 21:56:17,936 — bot — DEBUG — 395 === 198.229.231.13:8080, HTTP (Mikrotik), NOA speed = 14, False, 39% (324) -, 19:05:20 22:28
+2020-05-21 21:56:18,015 — bot — DEBUG — 397 === 98.190.250.150:48678, HTTPS (Mikrotik), NOA speed = 16, False, 49% (613) -, 19:05:20 21:31
+2020-05-21 21:56:18,097 — bot — DEBUG — 399 === 45.76.0.165:9052, SOCKS5, HIA speed = 7, True, 11% (7) -, 19:05:20 21:00
+2020-05-21 21:56:18,178 — bot — DEBUG — 401 === 173.82.177.212:5836, HTTPS (Squid), NOA speed = 14, False, 55% (6) -, 19:05:20 20:20
+2020-05-21 21:56:18,255 — bot — DEBUG — 403 === 160.2.38.41:8080, HTTP, HIA speed = 8, False, 28% (38) -, 19:05:20 17:23
+2020-05-21 21:56:18,336 — bot — DEBUG — 405 === 38.126.254.114:45517, HTTPS, HIA speed = 15, False, 28% (22) -, 19:05:20 17:09
+2020-05-21 21:56:18,413 — bot — DEBUG — 407 === 208.67.183.240:80, HTTP, HIA speed = 10, False, 53% (528) -, 19:05:20 16:55
+2020-05-21 21:56:18,500 — bot — DEBUG — 409 === 216.45.59.61:25157, SOCKS5, HIA speed = 17, True, 20% (1) -, 19:05:20 16:33
+2020-05-21 21:56:18,577 — bot — DEBUG — 411 === 69.162.92.149:5836, HTTP (Squid), NOA speed = 13, False, 67% (2) -, 19:05:20 16:21
+2020-05-21 21:56:18,653 — bot — DEBUG — 413 === 34.71.193.57:3128, HTTPS (Squid), NOA speed = 30, False, 77% (17) +, 19:05:20 15:50
+2020-05-21 21:56:18,733 — bot — DEBUG — 415 === 34.71.169.15:3128, HTTPS (Squid), NOA speed = 30, False, 70% (16) +, 19:05:20 15:49
+2020-05-21 21:56:18,811 — bot — DEBUG — 417 === 162.243.159.46:3128, HTTP (Squid), NOA speed = 30, False, 81% (82) +, 19:05:20 15:14
+2020-05-21 21:56:18,892 — bot — DEBUG — 419 === 129.146.138.235:3128, HTTP (Squid), NOA speed = 25, False, 27% (69) +, 19:05:20 14:51
+2020-05-21 21:56:18,970 — bot — DEBUG — 421 === 35.221.93.7:8080, HTTP, ANM speed = 8, False, 8% (2) +, 19:05:20 13:50
+2020-05-21 21:56:19,053 — bot — DEBUG — 423 === 69.162.122.142:5836, HTTPS (Squid), NOA speed = 11, False, 25% (1) +, 19:05:20 13:34
+2020-05-21 21:56:19,132 — bot — DEBUG — 425 === 104.238.111.150:48689, SOCKS5, HIA speed = 10, False, 78% (64) -, 19:05:20 13:01
+2020-05-21 21:56:19,217 — bot — DEBUG — 427 === 51.81.31.64:32836, SOCKS5, HIA speed = 25, True, 50% (1) -, 19:05:20 12:47
+2020-05-21 21:56:19,298 — bot — DEBUG — 429 === 69.162.90.102:5836, HTTPS (Squid), NOA speed = 15, False, 57% (4) -, 19:05:20 12:04
+2020-05-21 21:56:19,377 — bot — DEBUG — 431 === 184.183.3.211:8080, HTTP (Mikrotik), NOA speed = 6, False, 37% (229) -, 19:05:20 11:52
+2020-05-21 21:56:19,455 — bot — DEBUG — 433 === 136.25.2.43:40094, HTTP, HIA speed = 17, False, 24% (10) +, 19:05:20 10:55
+2020-05-21 21:56:19,533 — bot — DEBUG — 435 === 66.71.246.90:2306, SOCKS5, HIA speed = 10, False, 53% (72) -, 19:05:20 09:24
+2020-05-21 21:56:19,615 — bot — DEBUG — 437 === 104.238.97.215:58703, SOCKS5, HIA speed = 16, False, 68% (41) -, 19:05:20 08:52
+2020-05-21 21:56:19,691 — bot — DEBUG — 439 === 184.168.146.10:29999, SOCKS5, HIA speed = 6, False, 33% (1) -, 19:05:20 08:46
+2020-05-21 21:56:19,769 — bot — DEBUG — 441 === 34.71.213.245:3128, HTTPS (Squid), NOA speed = 30, False, 65% (11) +, 19:05:20 07:56
+2020-05-21 21:56:19,846 — bot — DEBUG — 443 === 199.188.92.203:9000, SOCKS5, HIA speed = 25, True, 54% (7) -, 19:05:20 04:01
+2020-05-21 21:56:19,926 — bot — DEBUG — 445 === 65.111.255.98:80, HTTP, HIA speed = 10, True, 14% (9) -, 19:05:20 01:47
+2020-05-21 21:56:20,004 — bot — DEBUG — 447 === 65.152.119.226:39408, HTTP, HIA speed = 16, False, 30% (16) -, 19:05:20 00:54
+2020-05-21 21:56:20,087 — bot — DEBUG — 449 === 167.99.116.191:3128, HTTPS (Squid), NOA speed = 30, False, 50% (14) +, 19:05:20 00:06
+2020-05-21 21:56:20,164 — bot — DEBUG — 451 === 184.178.172.28:15294, SOCKS5, HIA speed = 14, False, 88% (644) -, 18:05:20 23:02
+2020-05-21 21:56:20,249 — bot — DEBUG — 453 === 98.143.147.149:25157, SOCKS5, HIA speed = 8, True, 12% (2) -, 18:05:20 22:57
+2020-05-21 21:56:20,326 — bot — DEBUG — 455 === 166.62.43.174:2383, SOCKS5, HIA speed = 17, False, новый -, 18:05:20 22:54
+2020-05-21 21:56:20,404 — bot — DEBUG — 457 === 52.200.198.107:80, HTTP, HIA speed = 8, False, 22% (17) -, 18:05:20 22:39
+2020-05-21 21:56:20,485 — bot — DEBUG — 459 === 34.67.87.176:3128, HTTPS (Squid), NOA speed = 30, False, 53% (9) +, 18:05:20 22:23
+2020-05-21 21:56:20,567 — bot — DEBUG — 461 === 24.172.34.114:40675, HTTP, HIA speed = 9, False, 38% (18) -, 18:05:20 22:09
+2020-05-21 21:56:20,655 — bot — DEBUG — 463 === 173.82.177.211:5836, HTTPS (Squid), NOA speed = 17, False, 47% (7) +, 18:05:20 22:07
+2020-05-21 21:56:20,737 — bot — DEBUG — 465 === 69.88.123.106:3128, HTTPS, ANM speed = 25, True, 63% (19) -, 18:05:20 21:57
+2020-05-21 21:56:20,815 — bot — DEBUG — 467 === 54.149.84.173:3128, HTTP, ANM speed = 11, False, 10% (1) +, 18:05:20 21:30
+2020-05-21 21:56:20,941 — bot — DEBUG — 469 === 47.88.7.18:8088, HTTP, ANM speed = 11, False, 33% (2) -, 18:05:20 20:54
+2020-05-21 21:56:21,031 — bot — DEBUG — 471 === 209.97.159.125:80, HTTP, ANM speed = 30, False, 63% (5) +, 18:05:20 20:36
+2020-05-21 21:56:21,114 — bot — DEBUG — 473 === 166.62.43.174:18358, SOCKS5, HIA speed = 25, False, 100% (3) -, 18:05:20 18:51
+2020-05-21 21:56:21,201 — bot — DEBUG — 475 === 199.188.93.72:9000, SOCKS5, HIA speed = 25, True, 56% (5) -, 18:05:20 18:34
+2020-05-21 21:56:21,287 — bot — DEBUG — 477 === 50.62.61.96:46861, SOCKS5, HIA speed = 16, True, 58% (15) -, 18:05:20 17:07
+2020-05-21 21:56:21,372 — bot — DEBUG — 479 === 23.99.68.185:8080, HTTP (Squid), NOA speed = 25, False, 44% (21) +, 18:05:20 16:31
+2020-05-21 21:56:21,452 — bot — DEBUG — 481 === 129.213.201.20:80, HTTP, HIA speed = 5, False, 29% (17) -, 18:05:20 14:52
+2020-05-21 21:56:21,542 — bot — DEBUG — 483 === 69.162.126.75:5836, HTTPS (Squid), NOA speed = 11, False, 14% (1) +, 18:05:20 14:37
+2020-05-21 21:56:21,622 — bot — DEBUG — 485 === 184.168.146.10:35515, SOCKS5, HIA speed = 16, False, 33% (1) -, 18:05:20 13:08
+2020-05-21 21:56:21,702 — bot — DEBUG — 487 === 174.76.48.230:4145, SOCKS5, HIA speed = 25, False, 92% (11), 18:05:20 12:30
+2020-05-21 21:56:21,785 — bot — DEBUG — 489 === 35.202.150.202:3128, HTTPS (Squid), NOA speed = 30, False, 29% (4) +, 18:05:20 11:53
+2020-05-21 21:56:21,897 — bot — DEBUG — 491 === 174.67.106.117:80, HTTP, ANM speed = 7, True, 24% (4) -, 18:05:20 11:43
+2020-05-21 21:56:21,985 — bot — DEBUG — 493 === 140.82.8.145:3128, HTTP (Squid), NOA speed = 12, False, 38% (3) -, 18:05:20 11:04
+2020-05-21 21:56:22,069 — bot — DEBUG — 495 === 5.34.178.98:3128, HTTPS (Squid), NOA speed = 30, False, 67% (2) +, 18:05:20 08:10
+2020-05-21 21:56:22,154 — bot — DEBUG — 497 === 3.233.140.76:3128, HTTP, ANM speed = 30, False, 57% (8) +, 18:05:20 07:31
+2020-05-21 21:56:22,239 — bot — DEBUG — 499 === 192.119.203.124:48678, HTTP (Mikrotik), NOA speed = 11, False, 46% (429) -, 18:05:20 05:25
+2020-05-21 21:56:22,319 — bot — DEBUG — 501 === 165.227.216.91:3128, HTTP, ANM speed = 30, False, 100% (19) +, 21:05:20 21:27
+2020-05-21 21:56:22,319 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('165.227.216.91:3128', 'HTTP', 0, 30, 19, 19, 1);, have this error : 1062 (23000): Duplicate entry '165.227.216.91:3128' for key 'proxy' 
+2020-05-21 21:56:22,400 — bot — DEBUG — 502 === 50.236.148.254:39970, HTTP, HIA speed = 14, False, 33% (78) -, 21:05:20 21:20
+2020-05-21 21:56:22,401 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('50.236.148.254:39970', 'HTTP', 0, 14, 236, 78, 1);, have this error : 1062 (23000): Duplicate entry '50.236.148.254:39970' for key 'proxy' 
+2020-05-21 21:56:22,483 — bot — DEBUG — 503 === 167.71.174.144:8080, HTTP, ANM speed = 30, False, 100% (16) +, 21:05:20 21:02
+2020-05-21 21:56:22,484 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('167.71.174.144:8080', 'HTTP', 0, 30, 16, 16, 1);, have this error : 1062 (23000): Duplicate entry '167.71.174.144:8080' for key 'proxy' 
+2020-05-21 21:56:22,568 — bot — DEBUG — 504 === 206.183.31.221:9050, SOCKS5, HIA speed = 17, True, 19% (100) -, 21:05:20 20:59
+2020-05-21 21:56:22,569 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('206.183.31.221:9050', 'SOCKS5', 1, 17, 526, 100, 1);, have this error : 1062 (23000): Duplicate entry '206.183.31.221:9050' for key 'proxy' 
+2020-05-21 21:56:22,650 — bot — DEBUG — 505 === 98.143.145.29:62354, SOCKS5, HIA speed = 30, False, 95% (2018) -, 21:05:20 20:56
+2020-05-21 21:56:22,651 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('98.143.145.29:62354', 'SOCKS5', 0, 30, 2124, 2018, 1);, have this error : 1062 (23000): Duplicate entry '98.143.145.29:62354' for key 'proxy' 
+2020-05-21 21:56:22,736 — bot — DEBUG — 506 === 66.42.224.229:41679, SOCKS5, HIA speed = 25, False, 92% (434) -, 21:05:20 20:53
+2020-05-21 21:56:22,737 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('66.42.224.229:41679', 'SOCKS5', 0, 25, 471, 434, 1);, have this error : 1062 (23000): Duplicate entry '66.42.224.229:41679' for key 'proxy' 
+2020-05-21 21:56:22,816 — bot — DEBUG — 507 === 72.49.49.11:31034, SOCKS5, HIA speed = 17, False, 90% (2231) -, 21:05:20 20:50
+2020-05-21 21:56:22,817 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('72.49.49.11:31034', 'SOCKS5', 0, 17, 2478, 2231, 1);, have this error : 1062 (23000): Duplicate entry '72.49.49.11:31034' for key 'proxy' 
+2020-05-21 21:56:22,900 — bot — DEBUG — 508 === 159.89.49.60:31264, SOCKS5, HIA speed = 30, False, 94% (47) -, 21:05:20 20:49
+2020-05-21 21:56:22,901 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('159.89.49.60:31264', 'SOCKS5', 0, 30, 50, 47, 1);, have this error : 1062 (23000): Duplicate entry '159.89.49.60:31264' for key 'proxy' 
+2020-05-21 21:56:22,983 — bot — DEBUG — 509 === 216.144.230.233:15993, SOCKS5, HIA speed = 30, False, 95% (2632) -, 21:05:20 20:43
+2020-05-21 21:56:22,984 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('216.144.230.233:15993', 'SOCKS5', 0, 30, 2770, 2632, 1);, have this error : 1062 (23000): Duplicate entry '216.144.230.233:15993' for key 'proxy' 
+2020-05-21 21:56:23,067 — bot — DEBUG — 510 === 104.236.26.27:38801, SOCKS5, HIA speed = 14, False, 66% (52) -, 21:05:20 20:41
+2020-05-21 21:56:23,068 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.236.26.27:38801', 'SOCKS5', 0, 14, 78, 52, 1);, have this error : 1062 (23000): Duplicate entry '104.236.26.27:38801' for key 'proxy' 
+2020-05-21 21:56:23,153 — bot — DEBUG — 511 === 47.241.16.16:1080, SOCKS5, HIA speed = 25, True, 98% (237) -, 21:05:20 20:34
+2020-05-21 21:56:23,154 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('47.241.16.16:1080', 'SOCKS5', 1, 25, 241, 237, 1);, have this error : 1062 (23000): Duplicate entry '47.241.16.16:1080' for key 'proxy' 
+2020-05-21 21:56:23,241 — bot — DEBUG — 512 === 207.97.174.134:1080, SOCKS5, HIA speed = 30, False, 69% (1715) -, 21:05:20 20:29
+2020-05-21 21:56:23,242 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('207.97.174.134:1080', 'SOCKS5', 0, 30, 2485, 1715, 1);, have this error : 1062 (23000): Duplicate entry '207.97.174.134:1080' for key 'proxy' 
+2020-05-21 21:56:23,325 — bot — DEBUG — 513 === 35.187.228.89:3128, HTTPS (Squid), NOA speed = 25, False, 58% (7) +, 21:05:20 20:12
+2020-05-21 21:56:23,326 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.187.228.89:3128', 'HTTPS (Squid)', 0, 25, 12, 7, 1);, have this error : 1062 (23000): Duplicate entry '35.187.228.89:3128' for key 'proxy' 
+2020-05-21 21:56:23,407 — bot — DEBUG — 514 === 18.221.76.31:3128, HTTP (Squid), NOA speed = 30, False, 92% (45) +, 21:05:20 19:44
+2020-05-21 21:56:23,408 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('18.221.76.31:3128', 'HTTP (Squid)', 0, 30, 48, 45, 1);, have this error : 1062 (23000): Duplicate entry '18.221.76.31:3128' for key 'proxy' 
+2020-05-21 21:56:23,492 — bot — DEBUG — 515 === 70.165.65.233:48678, HTTP (Mikrotik), NOA speed = 15, False, 43% (364) -, 21:05:20 19:30
+2020-05-21 21:56:23,492 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('70.165.65.233:48678', 'HTTP (Mikrotik)', 0, 15, 846, 364, 1);, have this error : 1062 (23000): Duplicate entry '70.165.65.233:48678' for key 'proxy' 
+2020-05-21 21:56:23,571 — bot — DEBUG — 516 === 3.95.11.66:3128, HTTP, HIA speed = 13, False, 23% (15) -, 21:05:20 19:20
+2020-05-21 21:56:23,572 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('3.95.11.66:3128', 'HTTP', 0, 13, 65, 15, 1);, have this error : 1062 (23000): Duplicate entry '3.95.11.66:3128' for key 'proxy' 
+2020-05-21 21:56:23,655 — bot — DEBUG — 517 === 34.91.56.14:8080, HTTP, ANM speed = 30, False, 100% (4) +, 21:05:20 19:16
+2020-05-21 21:56:23,656 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('34.91.56.14:8080', 'HTTP', 0, 30, 4, 4, 1);, have this error : 1062 (23000): Duplicate entry '34.91.56.14:8080' for key 'proxy' 
+2020-05-21 21:56:23,739 — bot — DEBUG — 518 === 174.70.241.8:24398, SOCKS5, HIA speed = 25, False, 82% (179) -, 21:05:20 19:09
+2020-05-21 21:56:23,740 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('174.70.241.8:24398', 'SOCKS5', 0, 25, 218, 179, 1);, have this error : 1062 (23000): Duplicate entry '174.70.241.8:24398' for key 'proxy' 
+2020-05-21 21:56:23,826 — bot — DEBUG — 519 === 208.97.31.229:53124, SOCKS5, HIA speed = 18, False, 91% (2301) -, 21:05:20 19:04
+2020-05-21 21:56:23,827 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('208.97.31.229:53124', 'SOCKS5', 0, 18, 2528, 2301, 1);, have this error : 1062 (23000): Duplicate entry '208.97.31.229:53124' for key 'proxy' 
+2020-05-21 21:56:23,911 — bot — DEBUG — 520 === 50.62.31.62:17232, SOCKS5, HIA speed = 17, True, 47% (25) -, 21:05:20 18:59
+2020-05-21 21:56:23,912 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('50.62.31.62:17232', 'SOCKS5', 1, 17, 53, 25, 1);, have this error : 1062 (23000): Duplicate entry '50.62.31.62:17232' for key 'proxy' 
+2020-05-21 21:56:23,992 — bot — DEBUG — 521 === 96.71.87.49:8080, HTTP, ANM speed = 17, False, 75% (6) -, 21:05:20 18:53
+2020-05-21 21:56:23,993 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('96.71.87.49:8080', 'HTTP', 0, 17, 8, 6, 1);, have this error : 1062 (23000): Duplicate entry '96.71.87.49:8080' for key 'proxy' 
+2020-05-21 21:56:24,074 — bot — DEBUG — 522 === 173.245.239.177:16964, SOCKS5, HIA speed = 18, False, 95% (565) -, 21:05:20 18:49
+2020-05-21 21:56:24,075 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('173.245.239.177:16964', 'SOCKS5', 0, 18, 594, 565, 1);, have this error : 1062 (23000): Duplicate entry '173.245.239.177:16964' for key 'proxy' 
+2020-05-21 21:56:24,158 — bot — DEBUG — 523 === 104.248.49.76:3128, HTTP (Squid), NOA speed = 11, False, 25% (13) -, 21:05:20 18:44
+2020-05-21 21:56:24,159 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.248.49.76:3128', 'HTTP (Squid)', 0, 11, 52, 13, 1);, have this error : 1062 (23000): Duplicate entry '104.248.49.76:3128' for key 'proxy' 
+2020-05-21 21:56:24,246 — bot — DEBUG — 524 === 68.180.105.55:10200, SOCKS5, HIA speed = 15, False, 28% (170) -, 21:05:20 18:41
+2020-05-21 21:56:24,247 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('68.180.105.55:10200', 'SOCKS5', 0, 15, 607, 170, 1);, have this error : 1062 (23000): Duplicate entry '68.180.105.55:10200' for key 'proxy' 
+2020-05-21 21:56:24,332 — bot — DEBUG — 525 === 64.90.50.154:52814, SOCKS5, HIA speed = 16, True, новый -, 21:05:20 18:35
+2020-05-21 21:56:24,333 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('64.90.50.154:52814', 'SOCKS5', 1, 16, 1, 1, 1);, have this error : 1062 (23000): Duplicate entry '64.90.50.154:52814' for key 'proxy' 
+2020-05-21 21:56:24,418 — bot — DEBUG — 526 === 184.178.172.25:15291, SOCKS5, HIA speed = 13, False, 85% (313) -, 21:05:20 18:30
+2020-05-21 21:56:24,419 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('184.178.172.25:15291', 'SOCKS5', 0, 13, 368, 313, 1);, have this error : 1062 (23000): Duplicate entry '184.178.172.25:15291' for key 'proxy' 
+2020-05-21 21:56:24,501 — bot — DEBUG — 527 === 64.227.106.79:8080, HTTP, ANM speed = 30, False, 100% (24) +, 21:05:20 18:15
+2020-05-21 21:56:24,502 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('64.227.106.79:8080', 'HTTP', 0, 30, 24, 24, 1);, have this error : 1062 (23000): Duplicate entry '64.227.106.79:8080' for key 'proxy' 
+2020-05-21 21:56:24,602 — bot — DEBUG — 528 === 157.230.226.207:80, HTTP, HIA speed = 12, False, 28% (50) +, 21:05:20 18:08
+2020-05-21 21:56:24,602 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('157.230.226.207:80', 'HTTP', 0, 12, 178, 50, 1);, have this error : 1062 (23000): Duplicate entry '157.230.226.207:80' for key 'proxy' 
+2020-05-21 21:56:24,690 — bot — DEBUG — 529 === 35.198.246.77:808, SOCKS5, HIA speed = 11, False, 75% (15) -, 21:05:20 17:54
+2020-05-21 21:56:24,691 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.198.246.77:808', 'SOCKS5', 0, 11, 20, 15, 1);, have this error : 1062 (23000): Duplicate entry '35.198.246.77:808' for key 'proxy' 
+2020-05-21 21:56:24,775 — bot — DEBUG — 530 === 184.180.90.226:8080, HTTP (Mikrotik), NOA speed = 9, False, 47% (477) -, 21:05:20 17:50
+2020-05-21 21:56:24,776 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('184.180.90.226:8080', 'HTTP (Mikrotik)', 0, 9, 1014, 477, 1);, have this error : 1062 (23000): Duplicate entry '184.180.90.226:8080' for key 'proxy' 
+2020-05-21 21:56:24,859 — bot — DEBUG — 531 === 174.76.35.15:36163, SOCKS5, HIA speed = 25, False, 89% (284) -, 21:05:20 17:49
+2020-05-21 21:56:24,860 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('174.76.35.15:36163', 'SOCKS5', 0, 25, 319, 284, 1);, have this error : 1062 (23000): Duplicate entry '174.76.35.15:36163' for key 'proxy' 
+2020-05-21 21:56:24,980 — bot — DEBUG — 532 === 216.144.228.130:15378, SOCKS5, HIA speed = 25, False, 95% (2298) -, 21:05:20 17:48
+2020-05-21 21:56:24,981 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('216.144.228.130:15378', 'SOCKS5', 0, 25, 2418, 2298, 1);, have this error : 1062 (23000): Duplicate entry '216.144.228.130:15378' for key 'proxy' 
+2020-05-21 21:56:25,096 — bot — DEBUG — 533 === 104.248.63.17:30588, SOCKS5, HIA speed = 25, True, 96% (74) -, 21:05:20 17:47
+2020-05-21 21:56:25,097 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.248.63.17:30588', 'SOCKS5', 1, 25, 77, 74, 1);, have this error : 1062 (23000): Duplicate entry '104.248.63.17:30588' for key 'proxy' 
+2020-05-21 21:56:25,190 — bot — DEBUG — 534 === 96.44.183.149:55225, SOCKS5, HIA speed = 30, False, 96% (2368) -, 21:05:20 17:46
+2020-05-21 21:56:25,191 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('96.44.183.149:55225', 'SOCKS5', 0, 30, 2466, 2368, 1);, have this error : 1062 (23000): Duplicate entry '96.44.183.149:55225' for key 'proxy' 
+2020-05-21 21:56:25,277 — bot — DEBUG — 535 === 51.81.31.170:27799, SOCKS5, HIA speed = 30, True, новый -, 21:05:20 17:46
+2020-05-21 21:56:25,279 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('51.81.31.170:27799', 'SOCKS5', 1, 30, 1, 1, 1);, have this error : 1062 (23000): Duplicate entry '51.81.31.170:27799' for key 'proxy' 
+2020-05-21 21:56:25,365 — bot — DEBUG — 536 === 75.80.242.9:41007, HTTPS, HIA speed = 9, False, 41% (374) +, 21:05:20 17:40
+2020-05-21 21:56:25,365 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('75.80.242.9:41007', 'HTTPS', 0, 9, 912, 374, 1);, have this error : 1062 (23000): Duplicate entry '75.80.242.9:41007' for key 'proxy' 
+2020-05-21 21:56:25,454 — bot — DEBUG — 537 === 54.234.154.240:80, HTTP, HIA speed = 11, False, 38% (3) -, 21:05:20 17:32
+2020-05-21 21:56:25,455 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('54.234.154.240:80', 'HTTP', 0, 11, 7, 3, 1);, have this error : 1062 (23000): Duplicate entry '54.234.154.240:80' for key 'proxy' 
+2020-05-21 21:56:25,540 — bot — DEBUG — 538 === 3.211.17.212:80, HTTP, NOA speed = 25, False, 100% (60) +, 21:05:20 17:10
+2020-05-21 21:56:25,540 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('3.211.17.212:80', 'HTTP', 0, 25, 60, 60, 1);, have this error : 1062 (23000): Duplicate entry '3.211.17.212:80' for key 'proxy' 
+2020-05-21 21:56:25,623 — bot — DEBUG — 539 === 104.238.97.215:40214, SOCKS5, HIA speed = 17, False, 73% (11) -, 21:05:20 16:46
+2020-05-21 21:56:25,623 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('104.238.97.215:40214', 'SOCKS5', 0, 17, 15, 11, 1);, have this error : 1062 (23000): Duplicate entry '104.238.97.215:40214' for key 'proxy' 
+2020-05-21 21:56:25,718 — bot — DEBUG — 540 === 184.178.172.13:15311, SOCKS5, HIA speed = 25, False, 88% (981) -, 21:05:20 16:43
+2020-05-21 21:56:25,719 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('184.178.172.13:15311', 'SOCKS5', 0, 25, 1114, 981, 1);, have this error : 1062 (23000): Duplicate entry '184.178.172.13:15311' for key 'proxy' 
+2020-05-21 21:56:25,803 — bot — DEBUG — 541 === 75.150.251.146:3128, HTTP (Squid), ANM speed = 10, False, 31% (9) -, 21:05:20 16:43
+2020-05-21 21:56:25,804 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('75.150.251.146:3128', 'HTTP (Squid)', 0, 10, 29, 9, 1);, have this error : 1062 (23000): Duplicate entry '75.150.251.146:3128' for key 'proxy' 
+2020-05-21 21:56:25,890 — bot — DEBUG — 542 === 166.249.185.133:41942, HTTP, HIA speed = 15, False, 24% (10) -, 21:05:20 16:37
+2020-05-21 21:56:25,890 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('166.249.185.133:41942', 'HTTP', 0, 15, 41, 10, 1);, have this error : 1062 (23000): Duplicate entry '166.249.185.133:41942' for key 'proxy' 
+2020-05-21 21:56:26,010 — bot — DEBUG — 543 === 157.245.222.183:80, HTTP, HIA speed = 18, False, 21% (5) -, 21:05:20 16:31
+2020-05-21 21:56:26,011 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('157.245.222.183:80', 'HTTP', 0, 18, 23, 5, 1);, have this error : 1062 (23000): Duplicate entry '157.245.222.183:80' for key 'proxy' 
+2020-05-21 21:56:26,101 — bot — DEBUG — 544 === 144.202.45.68:3128, HTTPS (Squid), NOA speed = 30, False, 52% (12) +, 21:05:20 16:27
+2020-05-21 21:56:26,102 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('144.202.45.68:3128', 'HTTPS (Squid)', 0, 30, 23, 12, 1);, have this error : 1062 (23000): Duplicate entry '144.202.45.68:3128' for key 'proxy' 
+2020-05-21 21:56:26,189 — bot — DEBUG — 545 === 73.216.132.208:44428, HTTP, HIA speed = 0, False, 18% (76) -, 21:05:20 16:19
+2020-05-21 21:56:26,190 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('73.216.132.208:44428', 'HTTP', 0, 0, 422, 76, 1);, have this error : 1062 (23000): Duplicate entry '73.216.132.208:44428' for key 'proxy' 
+2020-05-21 21:56:26,284 — bot — DEBUG — 546 === 70.169.145.164:48678, HTTPS (Mikrotik), NOA speed = 25, False, 47% (75) -, 21:05:20 16:17
+2020-05-21 21:56:26,285 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('70.169.145.164:48678', 'HTTPS (Mikrotik)', 0, 25, 159, 75, 1);, have this error : 1062 (23000): Duplicate entry '70.169.145.164:48678' for key 'proxy' 
+2020-05-21 21:56:26,368 — bot — DEBUG — 547 === 67.60.137.219:35979, HTTP, HIA speed = 6, False, 45% (475) -, 21:05:20 16:10
+2020-05-21 21:56:26,369 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('67.60.137.219:35979', 'HTTP', 0, 6, 1055, 475, 1);, have this error : 1062 (23000): Duplicate entry '67.60.137.219:35979' for key 'proxy' 
+2020-05-21 21:56:26,454 — bot — DEBUG — 548 === 52.44.221.195:8080, HTTP (Squid), NOA speed = 30, False, 36% (32) -, 21:05:20 16:05
+2020-05-21 21:56:26,455 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('52.44.221.195:8080', 'HTTP (Squid)', 0, 30, 88, 32, 1);, have this error : 1062 (23000): Duplicate entry '52.44.221.195:8080' for key 'proxy' 
+2020-05-21 21:56:26,544 — bot — DEBUG — 549 === 47.51.51.190:8080, HTTP (Mikrotik), NOA speed = 14, False, 40% (385) -, 21:05:20 15:59
+2020-05-21 21:56:26,545 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('47.51.51.190:8080', 'HTTP (Mikrotik)', 0, 14, 962, 385, 1);, have this error : 1062 (23000): Duplicate entry '47.51.51.190:8080' for key 'proxy' 
+2020-05-21 21:56:26,631 — bot — DEBUG — 550 === 45.63.18.66:8080, HTTP (Squid), NOA speed = 30, False, 77% (27) +, 21:05:20 15:55
+2020-05-21 21:56:26,632 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('45.63.18.66:8080', 'HTTP (Squid)', 0, 30, 35, 27, 1);, have this error : 1062 (23000): Duplicate entry '45.63.18.66:8080' for key 'proxy' 
+2020-05-21 21:56:26,718 — bot — DEBUG — 551 === 35.202.9.41:3128, HTTP (Squid), NOA speed = 11, False, 61% (11) -, 21:05:20 15:50
+2020-05-21 21:56:26,718 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('35.202.9.41:3128', 'HTTP (Squid)', 0, 11, 18, 11, 1);, have this error : 1062 (23000): Duplicate entry '35.202.9.41:3128' for key 'proxy' 
+2020-05-21 21:56:26,806 — bot — DEBUG — 552 === 3.21.136.87:80, HTTP, HIA speed = 9, False, 100% (5) -, 21:05:20 15:45
+2020-05-21 21:56:26,807 — Saver — WARNING — we couldn`t insert into proxies this SQL - INSERT INTO proxies (proxy, type, replace_ip, speed, check_count, success_checks, alive) VALUES ('3.21.136.87:80', 'HTTP', 0, 9, 5, 5, 1);, have this error : 1062 (23000): Duplicate entry '3.21.136.87:80' for key 'proxy' 
+2020-05-21 21:56:26,896 — bot — DEBUG — 553 === 18.224.39.7:3128, HTTP, ANM speed = 17, False, 63% (52) +, 21:05:20 15:43
+2020-05-21 21:56:26,984 — bot — DEBUG — 554 === 23.254.131.133:3128, HTTP (Squid), NOA speed = 30, False, 44% (185) +, 21:05:20 15:42
+2020-05-21 21:56:27,072 — bot — DEBUG — 555 === 207.246.126.50:3128, HTTP (Squid), NOA speed = 3, False, 20% (1) -, 21:05:20 15:39
+2020-05-21 21:56:27,161 — bot — DEBUG — 556 === 173.82.74.58:5836, HTTP (Squid), NOA speed = 17, False, 39% (18) -, 21:05:20 15:29
+2020-05-21 21:56:27,256 — bot — DEBUG — 557 === 149.28.36.89:3128, HTTP (Squid), NOA speed = 13, False, 32% (14) -, 21:05:20 15:11
+2020-05-21 21:56:27,343 — bot — DEBUG — 558 === 144.202.57.127:8080, HTTP (Squid), NOA speed = 17, False, 80% (32) +, 21:05:20 15:08
+2020-05-21 21:56:27,432 — bot — DEBUG — 559 === 50.62.31.62:20636, SOCKS5, HIA speed = 15, True, 47% (21) -, 21:05:20 14:58
+2020-05-21 21:56:27,522 — bot — DEBUG — 560 === 184.168.146.10:29449, SOCKS5, HIA speed = 14, False, 64% (7) -, 21:05:20 14:53
+2020-05-21 21:56:27,608 — bot — DEBUG — 561 === 104.43.244.233:80, HTTP, HIA speed = 6, False, 49% (443) -, 21:05:20 14:51
+2020-05-21 21:56:27,699 — bot — DEBUG — 562 === 104.154.143.77:3128, HTTP (Squid), ANM speed = 12, True, 94% (29) +, 21:05:20 14:49
+2020-05-21 21:56:27,787 — bot — DEBUG — 563 === 47.89.249.147:17840, SOCKS5, HIA speed = 18, False, 72% (135) -, 21:05:20 14:44
+2020-05-21 21:56:27,875 — bot — DEBUG — 564 === 174.70.241.14:24392, SOCKS5, HIA speed = 25, False, 88% (1017) -, 21:05:20 14:34
+2020-05-21 21:56:27,960 — bot — DEBUG — 565 === 52.14.29.191:80, HTTP, HIA speed = 9, False, 23% (38) -, 21:05:20 13:45
+2020-05-21 21:56:28,051 — bot — DEBUG — 566 === 50.62.61.96:50358, SOCKS5, HIA speed = 17, True, 44% (7) -, 21:05:20 13:34
+2020-05-21 21:56:28,141 — bot — DEBUG — 567 === 45.55.230.207:30405, SOCKS5, HIA speed = 25, False, 33% (168) -, 21:05:20 13:33
+2020-05-21 21:56:28,232 — bot — DEBUG — 568 === 159.203.115.138:9050, SOCKS5, HIA speed = 18, True, 17% (21) -, 21:05:20 13:08
+2020-05-21 21:56:28,322 — bot — DEBUG — 569 === 167.99.60.252:9050, SOCKS5, HIA speed = 25, True, 25% (198) -, 21:05:20 12:53
+2020-05-21 21:56:28,409 — bot — DEBUG — 570 === 104.238.97.215:45208, SOCKS5, HIA speed = 10, False, 67% (66) -, 21:05:20 12:51
+2020-05-21 21:56:28,493 — bot — DEBUG — 571 === 134.73.227.242:1080, SOCKS5, HIA speed = 25, False, 33% (1) -, 21:05:20 12:49
+2020-05-21 21:56:28,576 — bot — DEBUG — 572 === 98.143.145.30:62353, SOCKS5, HIA speed = 30, False, 90% (283) -, 21:05:20 12:47
+2020-05-21 21:56:28,665 — bot — DEBUG — 573 === 134.73.228.89:1080, SOCKS5, HIA speed = 25, False, новый -, 21:05:20 12:35
+2020-05-21 21:56:28,751 — bot — DEBUG — 574 === 149.28.10.116:8080, HTTP (Squid), NOA speed = 30, False, 50% (1) +, 21:05:20 12:30
+2020-05-21 21:56:28,838 — bot — DEBUG — 575 === 38.21.34.224:8080, HTTP (Mikrotik), NOA speed = 9, False, 35% (167) -, 21:05:20 12:08
+2020-05-21 21:56:28,926 — bot — DEBUG — 576 === 69.162.90.100:5836, HTTPS (Squid), NOA speed = 12, False, 63% (10) -, 21:05:20 11:42
+2020-05-21 21:56:29,013 — bot — DEBUG — 577 === 69.162.82.154:5836, HTTPS (Squid), NOA speed = 16, False, 25% (1) -, 21:05:20 11:42
+2020-05-21 21:56:29,147 — bot — DEBUG — 578 === 66.36.238.237:5836, HTTP, ANM speed = 16, False, новый -, 21:05:20 11:37
+2020-05-21 21:56:29,254 — bot — DEBUG — 579 === 52.170.3.71:80, HTTP, HIA speed = 12, False, 27% (25) +, 21:05:20 11:31
+2020-05-21 21:56:29,349 — bot — DEBUG — 580 === 47.88.7.115:3129, HTTPS (Squid), NOA speed = 17, False, 58% (18) -, 21:05:20 11:27
+2020-05-21 21:56:29,442 — bot — DEBUG — 581 === 24.113.42.169:48678, HTTP (Mikrotik), NOA speed = 13, False, 32% (156) -, 21:05:20 11:19
+2020-05-21 21:56:29,533 — bot — DEBUG — 582 === 198.143.183.200:3128, HTTPS (Squid), NOA speed = 8, False, 43% (47) +, 21:05:20 11:11
+2020-05-21 21:56:29,625 — bot — DEBUG — 583 === 165.227.26.121:3128, HTTP, ANM speed = 14, False, 61% (70) +, 21:05:20 11:03
+2020-05-21 21:56:29,719 — bot — DEBUG — 584 === 12.5.154.153:80, HTTP, HIA speed = 14, True, 22% (17) +, 21:05:20 10:50
+2020-05-21 21:56:29,813 — bot — DEBUG — 585 === 173.197.169.6:8080, HTTP (Mikrotik), NOA speed = 9, False, 39% (334) -, 21:05:20 10:41
+2020-05-21 21:56:29,903 — bot — DEBUG — 586 === 50.197.38.230:60724, HTTP, HIA speed = 14, False, 43% (338) -, 21:05:20 10:24
+2020-05-21 21:56:29,995 — bot — DEBUG — 587 === 157.245.231.94:9090, SOCKS5, HIA speed = 18, True, 11% (1), 21:05:20 09:57
+2020-05-21 21:56:30,119 — bot — DEBUG — 588 === 198.199.120.102:1080, SOCKS5, HIA speed = 30, False, 99% (662) -, 21:05:20 09:41
+2020-05-21 21:56:30,211 — bot — DEBUG — 589 === 198.11.179.15:80, SOCKS5, HIA speed = 25, False, 79% (15), 21:05:20 09:33
+2020-05-21 21:56:30,302 — bot — DEBUG — 590 === 63.151.67.7:8080, HTTP (Mikrotik), NOA speed = 17, False, 47% (667) -, 21:05:20 09:16
+2020-05-21 21:56:30,392 — bot — DEBUG — 591 === 167.99.174.59:80, HTTP, HIA speed = 14, False, 28% (121) +, 21:05:20 08:56
+2020-05-21 21:56:30,487 — bot — DEBUG — 592 === 184.168.146.10:26337, SOCKS5, HIA speed = 15, False, новый -, 21:05:20 08:50
+2020-05-21 21:56:30,575 — bot — DEBUG — 593 === 192.169.215.124:3050, SOCKS5, HIA speed = 17, False, 59% (463) -, 21:05:20 08:50
+2020-05-21 21:56:30,665 — bot — DEBUG — 594 === 34.84.57.254:22080, SOCKS5, HIA speed = 25, False, 77% (467) -, 21:05:20 08:47
+2020-05-21 21:56:30,755 — bot — DEBUG — 595 === 184.178.172.18:15280, SOCKS5, HIA speed = 18, False, 89% (434) -, 21:05:20 08:46
+2020-05-21 21:56:30,844 — bot — DEBUG — 596 === 75.119.217.119:40535, SOCKS5, HIA speed = 30, False, 83% (5) -, 21:05:20 08:45
+2020-05-21 21:56:30,932 — bot — DEBUG — 597 === 23.83.247.171:8080, HTTP, ANM speed = 11, False, 22% (2) -, 21:05:20 08:30
+2020-05-21 21:56:31,025 — bot — DEBUG — 598 === 34.222.213.48:3128, HTTP (Squid), NOA speed = 9, False, 100% (3) -, 21:05:20 08:24
+2020-05-21 21:56:31,120 — bot — DEBUG — 599 === 18.237.133.234:3128, HTTP (Squid), NOA speed = 25, False, 67% (4) +, 21:05:20 08:20
+2020-05-21 21:56:31,210 — bot — DEBUG — 600 === 174.70.241.18:24404, SOCKS5, HIA speed = 14, False, 84% (456) -, 21:05:20 07:48
+2020-05-21 21:56:31,301 — bot — DEBUG — 601 === 50.62.61.96:15687, SOCKS5, HIA speed = 17, True, 56% (90) -, 21:05:20 07:43
+2020-05-21 21:56:31,389 — bot — DEBUG — 602 === 166.62.43.174:23684, SOCKS5, HIA speed = 17, False, новый -, 21:05:20 07:36
+2020-05-21 21:56:31,479 — bot — DEBUG — 603 === 96.234.124.154:80, HTTP, HIA speed = 14, False, 33% (11) -, 21:05:20 07:15
+2020-05-21 21:56:31,569 — bot — DEBUG — 604 === 157.245.126.155:3128, HTTP, ANM speed = 30, False, 54% (19) +, 21:05:20 06:32
+2020-05-21 21:56:31,658 — bot — DEBUG — 605 === 71.13.82.30:80, HTTP, ANM speed = 11, False, 37% (41) -, 21:05:20 05:46
+2020-05-21 21:56:31,755 — bot — DEBUG — 606 === 18.237.251.24:3128, HTTP (Squid), NOA speed = 17, False, 71% (5) -, 21:05:20 05:32
+2020-05-21 21:56:31,846 — bot — DEBUG — 607 === 34.220.134.117:3128, HTTP (Squid), NOA speed = 16, False, 83% (5) +, 21:05:20 05:18
+2020-05-21 21:56:31,938 — bot — DEBUG — 608 === 34.219.87.251:3128, HTTP (Squid), NOA speed = 17, False, 79% (23) +, 21:05:20 05:05
+2020-05-21 21:56:32,029 — bot — DEBUG — 609 === 3.83.150.238:80, HTTP, HIA speed = 14, False, 22% (6) -, 21:05:20 04:26
+2020-05-21 21:56:32,118 — bot — DEBUG — 610 === 166.62.43.174:19157, SOCKS5, HIA speed = 18, False, 82% (9) -, 21:05:20 03:49
+2020-05-21 21:56:32,211 — bot — DEBUG — 611 === 209.190.32.28:3128, HTTP, HIA speed = 15, False, 33% (13) +, 21:05:20 03:39
+2020-05-21 21:56:32,307 — bot — DEBUG — 612 === 172.246.69.25:29192, SOCKS5, HIA speed = 12, False, 38% (6) -, 21:05:20 02:57
+2020-05-21 21:56:32,397 — bot — DEBUG — 613 === 67.207.94.118:80, HTTP, HIA speed = 14, False, 32% (121) -, 21:05:20 02:10
+2020-05-21 21:56:32,493 — bot — DEBUG — 614 === 216.45.60.108:25157, SOCKS5, HIA speed = 15, True, 10% (2) -, 21:05:20 01:58
+2020-05-21 21:56:32,587 — bot — DEBUG — 615 === 18.237.64.165:3128, HTTP (Squid), NOA speed = 17, False, 60% (6) +, 21:05:20 01:28
+2020-05-21 21:56:32,678 — bot — DEBUG — 616 === 18.237.159.139:3128, HTTP (Squid), NOA speed = 17, False, 89% (24) -, 21:05:20 01:23
+2020-05-21 21:56:32,768 — bot — DEBUG — 617 === 18.237.67.131:3128, HTTP (Squid), NOA speed = 6, False, 72% (13) +, 21:05:20 00:44
+2020-05-21 21:56:32,859 — bot — DEBUG — 618 === 23.31.218.226:80, HTTP, ANM speed = 6, False, 28% (45) -, 21:05:20 00:26
+2020-05-21 21:56:32,954 — bot — DEBUG — 619 === 168.138.223.90:8888, HTTP (Squid), NOA speed = 12, False, 19% (5) -, 21:05:20 00:17
+2020-05-21 21:56:33,046 — bot — DEBUG — 620 === 74.121.98.90:8080, HTTP (Mikrotik), NOA speed = 18, False, 32% (39) -, 21:05:20 00:01
+2020-05-21 21:56:33,139 — bot — DEBUG — 621 === 54.157.191.194:8080, HTTP, ANM speed = 30, False, 50% (2) +, 20:05:20 23:54
+2020-05-21 21:56:33,268 — bot — DEBUG — 622 === 69.162.90.98:5836, HTTP (Squid), NOA speed = 9, False, новый -, 20:05:20 23:41
+2020-05-21 21:56:33,388 — bot — DEBUG — 623 === 18.237.55.217:3128, HTTP (Squid), NOA speed = 15, False, 71% (15) -, 20:05:20 23:34
+2020-05-21 21:56:33,485 — bot — DEBUG — 624 === 18.237.154.13:3128, HTTP (Squid), NOA speed = 16, False, 86% (6) +, 20:05:20 23:33
+2020-05-21 21:56:33,581 — bot — DEBUG — 625 === 18.236.213.9:3128, HTTP (Squid), NOA speed = 6, False, 80% (4) -, 20:05:20 23:32
+2020-05-21 21:56:33,683 — bot — DEBUG — 626 === 12.226.155.29:3128, HTTP (Squid), ANM speed = 25, True, 31% (8) +, 20:05:20 23:26
+2020-05-21 21:56:33,777 — bot — DEBUG — 627 === 40.76.59.221:80, HTTP, HIA speed = 9, False, 23% (49) +, 20:05:20 23:26
+2020-05-21 21:56:33,869 — bot — DEBUG — 628 === 73.239.197.175:8080, HTTP (Mikrotik), NOA speed = 4, False, 52% (789) -, 20:05:20 23:21
+2020-05-21 21:56:33,971 — bot — DEBUG — 629 === 71.183.100.116:80, HTTP, ANM speed = 16, False, 34% (91) -, 20:05:20 23:19
+2020-05-21 21:56:34,067 — bot — DEBUG — 630 === 69.162.64.14:5836, HTTPS (Squid), NOA speed = 15, False, 100% (4) -, 20:05:20 23:15
+2020-05-21 21:56:34,196 — bot — DEBUG — 631 === 159.89.82.38:80, HTTP, ANM speed = 30, False, 38% (3) +, 20:05:20 23:07
+2020-05-21 21:56:34,295 — bot — DEBUG — 632 === 54.202.128.139:3128, HTTP (Squid), NOA speed = 25, False, 100% (2) +, 20:05:20 23:06
+2020-05-21 21:56:34,393 — bot — DEBUG — 633 === 162.17.252.5:43764, HTTP, HIA speed = 13, False, 39% (264) -, 20:05:20 23:06
+2020-05-21 21:56:34,492 — bot — DEBUG — 634 === 50.236.148.246:39970, HTTP, HIA speed = 16, True, 43% (164) -, 20:05:20 23:03
+2020-05-21 21:56:34,586 — bot — DEBUG — 635 === 50.233.42.98:51696, HTTPS, HIA speed = 15, False, 52% (434) -, 20:05:20 23:02
+2020-05-21 21:56:34,682 — bot — DEBUG — 636 === 166.62.43.174:3524, SOCKS5, HIA speed = 18, False, новый -, 20:05:20 22:54
+2020-05-21 21:56:34,777 — bot — DEBUG — 637 === 34.221.56.27:3128, HTTP (Squid), NOA speed = 18, False, 82% (9) +, 20:05:20 22:47
+2020-05-21 21:56:34,871 — bot — DEBUG — 638 === 18.237.59.219:3128, HTTP (Squid), NOA speed = 18, False, 75% (6) +, 20:05:20 22:28
+2020-05-21 21:56:34,967 — bot — DEBUG — 639 === 18.237.226.99:3128, HTTP (Squid), NOA speed = 17, False, 75% (3) -, 20:05:20 22:27
+2020-05-21 21:56:35,062 — bot — DEBUG — 640 === 18.236.212.218:3128, HTTP (Squid), NOA speed = 17, False, 81% (17) +, 20:05:20 22:23
+2020-05-21 21:56:35,155 — bot — DEBUG — 641 === 149.28.32.161:8080, HTTP (Squid), NOA speed = 30, False, 50% (1) +, 20:05:20 22:06
+2020-05-21 21:56:35,268 — bot — DEBUG — 642 === 34.220.137.116:3128, HTTP (Squid), NOA speed = 18, False, 86% (6) +, 20:05:20 21:06
+2020-05-21 21:56:35,366 — bot — DEBUG — 643 === 159.203.127.55:80, HTTP, HIA speed = 16, False, 35% (180) -, 20:05:20 20:46
+2020-05-21 21:56:35,459 — bot — DEBUG — 644 === 173.82.115.174:5836, HTTPS, ANM speed = 12, False, 30% (9) +, 20:05:20 20:07
+2020-05-21 21:56:35,550 — bot — DEBUG — 645 === 92.38.169.138:5836, HTTP, ANM speed = 7, False, 30% (14) -, 20:05:20 19:09
+2020-05-21 21:56:35,645 — bot — DEBUG — 646 === 18.237.42.122:3128, HTTP (Squid), NOA speed = 13, False, 45% (5) +, 20:05:20 18:59
+2020-05-21 21:56:35,742 — bot — DEBUG — 647 === 50.62.61.96:20636, SOCKS5, HIA speed = 15, True, 55% (6) -, 20:05:20 18:48
+2020-05-21 21:56:35,842 — bot — DEBUG — 648 === 64.90.50.246:52814, SOCKS5, HIA speed = 15, True, 50% (1) -, 20:05:20 18:39
+2020-05-21 21:56:35,940 — bot — DEBUG — 649 === 45.77.71.140:9050, SOCKS5, HIA speed = 0, True, 26% (45) -, 20:05:20 18:35
+2020-05-21 21:56:36,043 — bot — DEBUG — 650 === 54.149.179.115:9050, SOCKS5, HIA speed = 17, True, 14% (10) -, 20:05:20 17:49
+2020-05-21 21:56:36,148 — bot — DEBUG — 651 === 206.57.165.188:8080, HTTP (Squid), ANM speed = 17, True, 86% (19) +, 20:05:20 17:15
+2020-05-21 21:56:36,245 — bot — DEBUG — 652 === 18.237.144.211:3128, HTTP (Squid), NOA speed = 16, False, 57% (4) +, 20:05:20 16:58
+2020-05-21 21:56:36,339 — bot — DEBUG — 653 === 3.17.41.198:3838, HTTP, ANM speed = 30, False, 47% (32) -, 20:05:20 16:25
+2020-05-21 21:56:36,435 — bot — DEBUG — 654 === 34.222.81.155:3128, HTTP (Squid), NOA speed = 6, False, 44% (4) -, 20:05:20 16:08
+2020-05-21 21:56:36,534 — bot — DEBUG — 655 === 184.95.43.27:8080, HTTPS (Mikrotik), NOA speed = 16, False, 17% (1) +, 20:05:20 14:54
+2020-05-21 21:56:36,637 — bot — DEBUG — 656 === 50.62.31.62:15687, SOCKS5, HIA speed = 15, True, 57% (107) -, 20:05:20 14:29
+2020-05-21 21:56:36,732 — bot — DEBUG — 657 === 166.62.43.174:64049, SOCKS5, HIA speed = 30, False, 100% (4) -, 20:05:20 14:27
+2020-05-21 21:56:36,835 — bot — DEBUG — 658 === 98.143.144.43:58780, SOCKS5, HIA speed = 17, True, 25% (1) -, 20:05:20 13:33
+2020-05-21 21:56:36,926 — bot — DEBUG — 659 === 198.12.154.22:20636, SOCKS5, HIA speed = 17, False, 70% (73) -, 20:05:20 13:26
+2020-05-21 21:56:37,020 — bot — DEBUG — 660 === 206.189.184.46:80, HTTP, HIA speed = 5, False, 26% (27) -, 20:05:20 12:58
+2020-05-21 21:56:37,113 — bot — DEBUG — 661 === 161.35.49.101:8080, HTTPS, HIA speed = 10, False, 25% (2) -, 20:05:20 12:46
+2020-05-21 21:56:37,208 — bot — DEBUG — 662 === 71.168.222.78:3128, HTTP (Squid), NOA speed = 9, False, 40% (58) -, 20:05:20 12:41
+2020-05-21 21:56:37,311 — bot — DEBUG — 663 === 204.15.243.233:58159, HTTP, HIA speed = 16, True, 21% (63) -, 20:05:20 12:18
+2020-05-21 21:56:37,461 — bot — DEBUG — 664 === 155.138.156.232:8080, HTTP (Squid), NOA speed = 30, False, 67% (2) +, 20:05:20 11:57
+2020-05-21 21:56:37,565 — bot — DEBUG — 665 === 67.219.113.93:8080, HTTP (Mikrotik), NOA speed = 25, False, 28% (13) -, 20:05:20 11:46
+2020-05-21 21:56:37,666 — bot — DEBUG — 666 === 54.202.107.197:3128, HTTP (Squid), NOA speed = 25, False, 70% (7) +, 20:05:20 11:39
+2020-05-21 21:56:37,768 — bot — DEBUG — 667 === 45.77.155.65:8080, HTTP (Squid), NOA speed = 30, False, 50% (5) +, 20:05:20 11:35
+2020-05-21 21:56:37,866 — bot — DEBUG — 668 === 45.76.242.114:8080, HTTP (Squid), NOA speed = 25, False, 50% (1) +, 20:05:20 11:34
+2020-05-21 21:56:37,964 — bot — DEBUG — 669 === 34.69.251.120:3128, HTTPS (Squid), NOA speed = 30, False, 67% (8) +, 20:05:20 11:30
+2020-05-21 21:56:38,061 — bot — DEBUG — 670 === 3.211.145.0:80, HTTP, NOA speed = 10, False, 53% (39) -, 20:05:20 11:25
+2020-05-21 21:56:38,170 — bot — DEBUG — 671 === 34.213.42.170:3128, HTTP, ANM speed = 2, False, 25% (1) +, 20:05:20 11:24
+2020-05-21 21:56:38,308 — bot — DEBUG — 672 === 165.227.22.216:80, HTTP, ANM speed = 30, False, 75% (15) +, 20:05:20 11:05
+2020-05-21 21:56:38,408 — bot — DEBUG — 673 === 140.82.8.145:80, HTTPS (Squid), NOA speed = 5, False, 14% (1) -, 20:05:20 11:00
+2020-05-21 21:56:38,507 — bot — DEBUG — 674 === 104.238.135.85:8080, HTTP (Squid), NOA speed = 30, False, 25% (1) +, 20:05:20 10:49
+2020-05-21 21:56:38,606 — bot — DEBUG — 675 === 157.245.15.86:80, HTTP, ANM speed = 30, False, 83% (19) +, 20:05:20 10:45
+2020-05-21 21:56:38,703 — bot — DEBUG — 676 === 71.183.100.76:42413, HTTPS, HIA speed = 16, False, 54% (508) -, 20:05:20 10:35
+2020-05-21 21:56:38,805 — bot — DEBUG — 677 === 50.62.61.96:17232, SOCKS5, HIA speed = 14, True, 56% (39) -, 20:05:20 09:29
+2020-05-21 21:56:38,908 — bot — DEBUG — 678 === 45.67.219.112:8080, HTTPS, ANM speed = 25, False, 33% (1) +, 20:05:20 09:17
+2020-05-21 21:56:39,005 — bot — DEBUG — 679 === 104.238.97.215:28407, SOCKS5, HIA speed = 15, False, 50% (2) -, 20:05:20 09:01
+2020-05-21 21:56:39,104 — bot — DEBUG — 680 === 104.238.111.150:24682, SOCKS5, HIA speed = 15, False, 70% (74) -, 20:05:20 08:28
+2020-05-21 21:56:39,200 — bot — DEBUG — 681 === 162.244.83.136:3128, HTTPS, ANM speed = 30, False, новый +, 20:05:20 07:38
+2020-05-21 21:56:39,296 — bot — DEBUG — 682 === 23.137.128.122:41549, HTTPS, HIA speed = 6, False, 28% (31) -, 20:05:20 07:35
+2020-05-21 21:56:39,402 — bot — DEBUG — 683 === 104.248.63.18:30588, SOCKS5, HIA speed = 30, True, 94% (44) -, 20:05:20 07:28
+2020-05-21 21:56:39,507 — bot — DEBUG — 684 === 216.158.89.114:8088, HTTPS, ANM speed = 11, False, 40% (12) -, 20:05:20 05:02
+2020-05-21 21:56:39,613 — bot — DEBUG — 685 === 107.150.22.210:8080, HTTPS (Mikrotik), NOA speed = 8, True, 26% (36) -, 20:05:20 04:40
+2020-05-21 21:56:39,717 — bot — DEBUG — 686 === 50.62.31.62:37916, SOCKS5, HIA speed = 17, True, 38% (15) -, 20:05:20 03:54
+2020-05-21 21:56:39,812 — bot — DEBUG — 687 === 184.168.146.10:19314, SOCKS5, HIA speed = 14, False, 80% (4) -, 20:05:20 03:39
+2020-05-21 21:56:39,916 — bot — DEBUG — 688 === 104.42.216.178:80, HTTP, HIA speed = 16, True, 11% (8) +, 20:05:20 03:29
+2020-05-21 21:56:40,013 — bot — DEBUG — 689 === 191.96.42.80:1080, SOCKS5, HIA speed = 30, False, 100% (24), 20:05:20 02:08
+2020-05-21 21:56:40,110 — bot — DEBUG — 690 === 138.68.60.8:1080, SOCKS5, HIA speed = 30, False, 100% (5), 20:05:20 01:48
+2020-05-21 21:56:40,214 — bot — DEBUG — 691 === 50.192.195.69:52018, HTTP, HIA speed = 10, False, 32% (88) -, 20:05:20 01:04
+2020-05-21 21:56:40,316 — bot — DEBUG — 692 === 97.72.128.134:87, HTTP, NOA speed = 3, True, 28% (75) -, 20:05:20 00:52
+2020-05-21 21:56:40,418 — bot — DEBUG — 693 === 208.98.185.89:53630, HTTP, HIA speed = 13, True, 33% (266) -, 19:05:20 23:28
+2020-05-21 21:56:40,517 — bot — DEBUG — 694 === 73.138.75.151:8080, HTTPS (Mikrotik), NOA speed = 15, False, 24% (90) -, 19:05:20 23:18
+2020-05-21 21:56:40,621 — bot — DEBUG — 695 === 68.188.63.149:8080, HTTP (Mikrotik), NOA speed = 13, True, 27% (68) -, 19:05:20 23:14
+2020-05-21 21:56:40,718 — bot — DEBUG — 696 === 54.90.107.200:80, HTTP, HIA speed = 5, False, 50% (4) -, 19:05:20 23:08
+2020-05-21 21:56:40,814 — bot — DEBUG — 697 === 34.71.229.144:3128, HTTPS (Squid), NOA speed = 30, False, 78% (25) +, 19:05:20 22:45
+2020-05-21 21:56:40,916 — bot — DEBUG — 698 === 190.103.178.14:8080, HTTP, ANM speed = 25, False, 52% (22) +, 19:05:20 21:56
+2020-05-21 21:56:41,012 — bot — DEBUG — 699 === 18.236.212.7:3128, HTTP (Squid), NOA speed = 9, False, 67% (8) -, 19:05:20 21:29
+2020-05-21 21:56:41,109 — bot — DEBUG — 700 === 173.82.74.59:5836, HTTP (Squid), NOA speed = 16, False, 33% (15) -, 19:05:20 20:21
+2020-05-21 21:56:41,209 — bot — DEBUG — 701 === 69.162.90.101:5836, HTTP (Squid), NOA speed = 25, False, 50% (1) +, 19:05:20 19:44
+2020-05-21 21:56:41,307 — bot — DEBUG — 702 === 18.217.198.64:80, HTTP, NOA speed = 30, False, 44% (109) -, 19:05:20 17:20
+2020-05-21 21:56:41,408 — bot — DEBUG — 703 === 216.45.60.109:58780, SOCKS5, HIA speed = 8, True, 33% (7) -, 19:05:20 17:02
+2020-05-21 21:56:41,547 — bot — DEBUG — 704 === 174.70.241.27:24413, SOCKS5, HIA speed = 17, False, 82% (307) -, 19:05:20 16:39
+2020-05-21 21:56:41,667 — bot — DEBUG — 705 === 8.9.30.23:3128, HTTPS (Squid), NOA speed = 11, False, 43% (3) -, 19:05:20 16:28
+2020-05-21 21:56:41,771 — bot — DEBUG — 706 === 45.32.1.168:8080, HTTP (Squid), NOA speed = 30, False, 58% (7) +, 19:05:20 15:54
+2020-05-21 21:56:41,881 — bot — DEBUG — 707 === 34.71.192.11:3128, HTTPS (Squid), NOA speed = 30, False, 89% (25) +, 19:05:20 15:49
+2020-05-21 21:56:41,984 — bot — DEBUG — 708 === 173.82.55.154:5836, HTTPS (Squid), NOA speed = 16, False, 9% (5) +, 19:05:20 15:23
+2020-05-21 21:56:42,085 — bot — DEBUG — 709 === 149.28.58.30:8080, HTTP (Squid), NOA speed = 30, False, 80% (4) +, 19:05:20 15:09
+2020-05-21 21:56:42,191 — bot — DEBUG — 710 === 50.16.83.16:80, HTTP, NOA speed = 30, True, 46% (11) +, 19:05:20 13:53
+2020-05-21 21:56:42,326 — bot — DEBUG — 711 === 69.71.163.58:39880, SOCKS5, HIA speed = 8, False, 18% (12) -, 19:05:20 13:42
+2020-05-21 21:56:42,437 — bot — DEBUG — 712 === 190.103.178.13:8080, HTTP, ANM speed = 13, False, 58% (72) -, 19:05:20 13:19
+2020-05-21 21:56:42,539 — bot — DEBUG — 713 === 144.34.180.240:8080, HTTP, ANM speed = 17, False, 50% (9) +, 19:05:20 12:47
+2020-05-21 21:56:42,640 — bot — DEBUG — 714 === 45.77.222.251:3128, HTTPS (Squid), NOA speed = 18, False, 61% (20) -, 19:05:20 12:32
+2020-05-21 21:56:42,741 — bot — DEBUG — 715 === 66.36.238.118:5836, HTTP, ANM speed = 9, False, 17% (1) -, 19:05:20 11:59
+2020-05-21 21:56:42,843 — bot — DEBUG — 716 === 35.240.187.37:3128, HTTP (Mikrotik), NOA speed = 16, False, 20% (4) -, 19:05:20 11:46
+2020-05-21 21:56:42,945 — bot — DEBUG — 717 === 35.198.251.235:8080, HTTP (Squid), NOA speed = 25, False, 73% (8) +, 19:05:20 09:41
+2020-05-21 21:56:43,057 — bot — DEBUG — 718 === 216.45.60.110:25157, SOCKS5, HIA speed = 15, True, 6% (1) -, 19:05:20 09:19
+2020-05-21 21:56:43,166 — bot — DEBUG — 719 === 98.143.144.42:25157, SOCKS5, HIA speed = 15, True, 43% (3) -, 19:05:20 08:50
+2020-05-21 21:56:43,281 — bot — DEBUG — 720 === 35.184.40.247:3128, HTTPS (Squid), NOA speed = 30, False, 57% (13) +, 19:05:20 07:57
+2020-05-21 21:56:43,382 — bot — DEBUG — 721 === 64.234.253.99:8080, HTTP (Mikrotik), NOA speed = 3, False, 41% (13) -, 19:05:20 05:13
+2020-05-21 21:56:43,486 — bot — DEBUG — 722 === 159.65.180.9:9050, SOCKS5, HIA speed = 25, True, 24% (222) -, 19:05:20 02:55
+2020-05-21 21:56:43,587 — bot — DEBUG — 723 === 69.65.65.178:34548, HTTP, HIA speed = 10, False, 27% (86) -, 19:05:20 00:54
+2020-05-21 21:56:43,689 — bot — DEBUG — 724 === 209.97.159.125:8080, HTTP, ANM speed = 30, False, 57% (16) +, 19:05:20 00:10
+2020-05-21 21:56:43,792 — bot — DEBUG — 725 === 138.68.240.218:1080, SOCKS5, HIA speed = 30, False, 100% (591) -, 18:05:20 23:47
+2020-05-21 21:56:43,894 — bot — DEBUG — 726 === 45.76.10.20:8080, HTTP, ANM speed = 30, False, 60% (3) +, 18:05:20 23:00
+2020-05-21 21:56:44,002 — bot — DEBUG — 727 === 96.30.9.173:3128, HTTP (Squid), NOA speed = 2, True, 22% (33) -, 18:05:20 22:54
+2020-05-21 21:56:44,103 — bot — DEBUG — 728 === 69.162.92.147:5836, HTTP (Squid), NOA speed = 10, False, новый +, 18:05:20 22:49
+2020-05-21 21:56:44,207 — bot — DEBUG — 729 === 34.94.93.33:8080, HTTP, ANM speed = 13, False, 40% (2) -, 18:05:20 22:26
+2020-05-21 21:56:44,308 — bot — DEBUG — 730 === 199.167.184.124:80, HTTP, ANM speed = 15, False, 26% (119) -, 18:05:20 22:18
+2020-05-21 21:56:44,412 — bot — DEBUG — 731 === 173.82.74.60:5836, HTTP (Squid), NOA speed = 12, False, 60% (6) +, 18:05:20 22:08
+2020-05-21 21:56:44,525 — bot — DEBUG — 732 === 161.199.130.1:8080, HTTPS (Mikrotik), NOA speed = 14, True, 27% (107) -, 18:05:20 22:00
+2020-05-21 21:56:44,627 — bot — DEBUG — 733 === 104.154.237.3:3128, HTTP (Squid), NOA speed = 12, False, 47% (7) +, 18:05:20 21:47
+2020-05-21 21:56:44,729 — bot — DEBUG — 734 === 69.162.92.146:5836, HTTPS (Squid), NOA speed = 25, False, 30% (3) -, 18:05:20 21:19
+2020-05-21 21:56:44,832 — bot — DEBUG — 735 === 34.91.249.20:3128, HTTPS (Squid), NOA speed = 30, False, 50% (8) +, 18:05:20 20:41
+2020-05-21 21:56:44,930 — bot — DEBUG — 736 === 173.217.255.36:33351, HTTP, HIA speed = 15, False, 25% (34) -, 18:05:20 20:18
+2020-05-21 21:56:45,040 — bot — DEBUG — 737 === 104.248.63.49:30588, SOCKS5, HIA speed = 30, True, 96% (47) -, 18:05:20 18:45
+2020-05-21 21:56:45,149 — bot — DEBUG — 738 === 144.202.105.190:3128, HTTP (Squid), NOA speed = 7, False, 24% (9) -, 18:05:20 18:19
+2020-05-21 21:56:45,255 — bot — DEBUG — 739 === 69.162.92.148:5836, HTTPS (Squid), NOA speed = 6, False, 50% (1) -, 18:05:20 16:40
+2020-05-21 21:56:45,360 — bot — DEBUG — 740 === 165.227.216.105:80, HTTP, ANM speed = 30, False, 67% (2) +, 18:05:20 15:16
+2020-05-21 21:56:45,464 — bot — DEBUG — 741 === 104.238.97.215:18254, SOCKS5, HIA speed = 7, False, 71% (63) -, 18:05:20 14:45
+2020-05-21 21:56:45,566 — bot — DEBUG — 742 === 184.72.245.16:80, HTTP, HIA speed = 3, False, 13% (5) -, 18:05:20 13:22
+2020-05-21 21:56:45,727 — bot — DEBUG — 743 === 166.62.43.174:15230, SOCKS5, HIA speed = 18, False, 83% (5) -, 18:05:20 12:47
+2020-05-21 21:56:45,844 — bot — DEBUG — 744 === 8.9.30.23:8000, HTTPS (Squid), NOA speed = 9, False, 14% (1) -, 18:05:20 12:24
+2020-05-21 21:56:45,954 — bot — DEBUG — 745 === 34.87.96.183:80, HTTP, ANM speed = 18, False, 10% (6) -, 18:05:20 11:50
+2020-05-21 21:56:46,061 — bot — DEBUG — 746 === 207.246.95.163:8080, HTTP (Squid), NOA speed = 30, False, 75% (9) +, 18:05:20 11:39
+2020-05-21 21:56:46,189 — bot — DEBUG — 747 === 104.245.228.65:8080, HTTPS (Mikrotik), NOA speed = 18, False, 53% (631) -, 18:05:20 08:25
+2020-05-21 21:56:46,305 — bot — DEBUG — 748 === 168.138.209.186:3128, HTTP (Squid), NOA speed = 7, False, 27% (3) -, 18:05:20 07:48
+2020-05-21 21:56:46,453 — bot — DEBUG — 749 === 52.27.33.92:80, HTTP, HIA speed = 8, False, 30% (21) -, 18:05:20 06:43
+2020-05-21 21:56:46,581 — bot — DEBUG — 750 === 155.138.154.91:8080, HTTP (Squid), NOA speed = 30, False, 2% (1) +, 18:05:20 03:30

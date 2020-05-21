@@ -59,7 +59,7 @@ class Bot:
         webdriver.ActionChains(self.driver).send_keys(Keys.ESCAPE).perform()
 
         select = Select(self.driver.find_element_by_name("xpp"))
-        select.select_by_value('2')  # 1 = 25, 2 = 100, 3 = 200, 4 = 300, 5 = 500
+        select.select_by_value('5')  # 1 = 25, 2 = 100, 3 = 200, 4 = 300, 5 = 500
 
         webdriver.ActionChains(self.driver).send_keys(Keys.ESCAPE).perform()
         table = self.driver.find_element_by_xpath('/html/body/table[2]/tbody/tr[4]/td/table/tbody')

@@ -7,15 +7,19 @@ from pytesseract import image_to_string
 import Log
 from selenium.webdriver.common.keys import Keys
 
+from DBcm import UseDatabase
+from Saver import Saver
+import config as cfg
 
 class Bot:
 
-    def __init__(self):
+    def __init__(self, saver):
         self.driver = webdriver.Firefox()
         self.driver.set_window_position(0, 0)
         self.driver.set_window_size(1440, 900)
         self.driver.set_page_load_timeout(5)  # seconds
         self.logger = Log.get_logger('bot')
+        self.saver = saver
 
     def take_screenshot(self):
         self.driver.save_screenshot('spy_one_screenshot.png')
@@ -76,13 +80,31 @@ class Bot:
             except:
                 replace_ip = False
 
-            speed = line.find_element_by_xpath('td[7]/font/table').get_attribute('width')
+            speed = int(line.find_element_by_xpath('td[7]/font/table').get_attribute('width'))
             uptime = line.find_element_by_xpath('td[8]/font').text
             checked = line.find_element_by_xpath('td[9]/font').text
-            print(counter, ' === ', proxy, type, anon, 'speed =', speed, replace_ip, uptime, checked)
+            self.logger.debug('%03d === %s, %s, %s speed = %d, %s, %s, %s' % (
+            counter, proxy, type, anon, speed, replace_ip, uptime, checked))
+            try:
+                check_count = int(uptime.split('(')[1].split(')')[0])
+                check_count = int(check_count * 100 / int(uptime.split('%')[0]))
+                success_checks = int(uptime.split('(')[1].split(')')[0])
+            except Exception as ex:
+                check_count = 1
+                success_checks = 1
+            self.saver.add_item_content_to_sql({'table_name': 'proxies',
+                                                'proxy': proxy,
+                                                'type': type,
+                                                'replace_ip': 1 if replace_ip else 0,
+                                                'speed': speed,
+                                                'check_count': check_count,
+                                                'success_checks': success_checks,
+                                                'alive': 1})
+            counter += 1
+            # breakpoint()
             counter +=1
 
-        for line in half1table[1:]:
+        for line in half2table[1:]:
             # print(line.text)
             proxy = line.find_element_by_xpath('td[1]/font').text
             type = line.find_element_by_xpath('td[2]/font').text
@@ -94,10 +116,25 @@ class Bot:
             except:
                 replace_ip = False
 
-            speed = line.find_element_by_xpath('td[7]/font/table').get_attribute('width')
+            speed = int(line.find_element_by_xpath('td[7]/font/table').get_attribute('width'))
             uptime = line.find_element_by_xpath('td[8]/font').text
             checked = line.find_element_by_xpath('td[9]/font').text
-            print(counter, ' === ', proxy, type, anon, 'speed =', speed, replace_ip, uptime, checked)
+            self.logger.debug('%03d === %s, %s, %s speed = %d, %s, %s, %s' % (counter, proxy, type, anon, speed, replace_ip, uptime, checked))
+            try:
+                check_count = int(uptime.split('(')[1].split(')')[0])
+                check_count = int(check_count * 100 / int(uptime.split('%')[0]))
+                success_checks = int(uptime.split('(')[1].split(')')[0])
+            except Exception as ex:
+                check_count = 1
+                success_checks  = 1
+            self.saver.add_item_content_to_sql({'table_name': 'proxies',
+                                                'proxy': proxy,
+                                                'type': type,
+                                                'replace_ip': 1 if replace_ip else 0,
+                                                'speed': speed,
+                                                'check_count': check_count,
+                                                'success_checks': success_checks,
+                                                'alive': 1})
             counter +=1
 
         self.driver.close()
@@ -111,8 +148,10 @@ class Bot:
 
 
 def main():
-    b = Bot()
-    b.navigate()
+    with UseDatabase(cfg.dbconfig) as cursor:
+        saver = Saver(cursor)
+        b = Bot(saver)
+        b.navigate()
 
 
 if __name__ == '__main__':

@@ -1,5 +1,3 @@
-import config as cfg
-from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 import re
 import Log
 
@@ -20,7 +18,7 @@ class Saver:
         table_exist = self.cursor.fetchone()
 
         if table_exist:
-            self.logger.debug("table %s exist " % content['table_name'])
+            # self.logger.debug("table %s exist " % content['table_name'])
             _SQL = "INSERT INTO "+content['table_name']+" ("
             for k, v in content.items():
                 if k != 'table_name':
@@ -29,14 +27,17 @@ class Saver:
 
             for k, v in content.items():
                 if k != 'table_name':
-                    _SQL += "'" + v + "', "
+                    if type(v) == type(''):
+                        _SQL += "'" + v + "', "
+                    else:
+                        _SQL += str(v) + ", "
             _SQL = _SQL[0: -2] + """);"""
             _SQL = re.sub(r'[^\w\s!?.,;:@#$%^&*№><~`\'\"\[\]()]', "", _SQL)
             try:
                 self.cursor.execute(_SQL)
             except Exception as e:
-                self.logger.error("we couldn`t insert into %s this SQL - %s " % (content['table_name'], _SQL))
-                self.logger.error('error msg', e)
+                self.logger.warn("we couldn`t insert into %s this SQL - %s, have this error : %s " % (content['table_name'], _SQL, e))
+                # self.logger.error('error msg', e)
                 return False, e
         else:
             self.logger.warn("table %s does not exist " % content['table_name'])

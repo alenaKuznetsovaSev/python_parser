@@ -3919,3 +3919,58 @@ action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1590412089713	Marionette	INFO	Stopped listening on port 34477
+1590412281465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHWEU31"
+1590412282399	addons.webextension.{a521e00b-74bd-4446-bd33-4346a26ed4ea}	WARN	Loading extension '{a521e00b-74bd-4446-bd33-4346a26ed4ea}': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+1590412283098	Marionette	INFO	Listening on port 43883
+1590412283171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590412283197	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+1590412283258	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+1590412289172	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1590412289173	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1590412337904	Marionette	INFO	Stopped listening on port 43883
+1590412358356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAljp1n"
+1590412359236	addons.webextension.{a521e00b-74bd-4446-bd33-4346a26ed4ea}	WARN	Loading extension '{a521e00b-74bd-4446-bd33-4346a26ed4ea}': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+1590412359942	Marionette	INFO	Listening on port 43177
+1590412359966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590412360025	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+1590412360090	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing browser_action.name: An unexpected property was found in the WebExtension manifest.
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200519/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+1590412366268	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+action.dispatch@chrome://marionette/content/action.js:1034:5
+performActions@chrome://marionette/content/listener.js:853:16
+dispatch/</req<@chrome://marionette/content/listener.js:527:14
+dispatch/<@chrome://marionette/content/listener.js:520:15
+1590412366269	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+Sleep@chrome://marionette/content/sync.js:283:10
+dispatchPause@chrome://marionette/content/action.js:1482:10
+toEvents/<@chrome://marionette/content/action.js:1156:16
+action.dispatchTickActions@chrome://marionette/content/action.js:1060:35
+action.dispatch/chainEvents<@chrome://marionette/content/action.js:1028:20
+1590412416672	Marionette	INFO	Stopped listening on port 43177

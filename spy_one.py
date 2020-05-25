@@ -174,7 +174,7 @@ class Bot:
     def navigate(self):
         """задает последовательность действий для парсинга"""
         self.logger.debug('start navigate')
-        target_url = 'http://spys.one/proxys/BR/'  # http://spys.one/proxys/DE/
+        target_url = 'http://spys.one/proxys/FR/'  # http://spys.one/proxys/DE/
         try:
             self.driver.get(target_url)
         except Exception as e:

@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from random import choice
 import Log
 
+
 class ProxyManager:
 
     def __init__(self):
@@ -19,6 +20,9 @@ class ProxyManager:
     def get_proxies(self) -> 'list of proxies':
         """отдает список живых прокси,
          если в списке proxies пусто - трясет новый список."""
+        if self.proxies:
+            return self.proxies
+
         while not self.proxies:
             self.logger.debug('в списке proxies[] нет живых. Запрашиваю новый список.')
             self.update_proxies()
@@ -117,5 +121,3 @@ class ProxyManager:
         self.proxy_options.pop(proxy)
         if not self.proxies:
             self.get_proxies()
-
-

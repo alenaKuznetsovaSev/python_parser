@@ -2,8 +2,7 @@ from abc import ABC, abstractmethod
 from bs4 import BeautifulSoup
 import config as cfg
 import requests
-
-from Saver import Saver
+from main import saver, proxy_manager
 import Log
 
 
@@ -15,7 +14,7 @@ class Parser(ABC):
     items_count = 0
     logger = None
 
-    def __init__(self, base_url, saver, proxy_manager):
+    def __init__(self, base_url):
         self.base_url = base_url
         self.saver = saver
         self.proxy_manager = proxy_manager

@@ -1,5 +1,6 @@
 import re
 import Log
+import csv
 
 
 class Saver:
@@ -56,6 +57,26 @@ class Saver:
         except Exception as e:
             self.logger.error("we couldn`t insert into links4parse this SQL - %s " % _SQL)
             self.logger.error('error msg', e)
+
+    def write_row_in_file(self, file_name="database.csv", data=""):
+        """функция для дописывания строки в файл"""
+        with open(file_name, "a") as file:
+            row = ""
+            for i in data:
+                row += "%s, " % i
+            file.write(row[:-2] + "\n")
+            file.close()
+
+    def read_file(self, file_name="random_text.csv"):
+        '''функция для чтения из файла
+        file_name - имя файла
+        возвращает массив строк'''
+        text = []
+        with open(file_name, "r", newline="") as file:
+            reader = csv.reader(file)
+            for row in reader:
+                text += row
+        return text
 
     # % (invoke_attributes.__class__.__name__, invoke_attributes.__dir__()[1], status)
 

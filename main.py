@@ -11,6 +11,6 @@ if __name__ == '__main__':
     with UseDatabase(cfg.dbconfig) as cursor:
         saver = Saver(cursor)
         proxy_manager = ProxyManager()
-        current_parser = Tastemade_com_food('https://www.tastemade.com/food', saver, proxy_manager)
+        current_parser = Tastemade_com_food('https://www.tastemade.com/food')
         saver.add_item_content_to_sql(current_parser.parse_item_page('https://www.tastemade.com/videos/spring-rolls-with-sakura-petals'))
     main_logger.info('program finished')

@@ -56,14 +56,14 @@ class Bot:
 
     def tel_recogn(self):
         """распознаем телефон на картинке"""
-        image = Image.open('tel.gif')
+        image = Image.open('results/tel.gif')
         print(image_to_string(image))
 
     def crop(self, location, size) -> bool:
         """вырезаем кртинку с телефоном из всплывающего окна avito и помещаем ее в tel.gif"""
         image = None
         try:
-            image = Image.open('avito_screenshot.png')
+            image = Image.open('results/avito_screenshot.png')
         except Exception as e:
             self.logger.error('"avito_screenshot.png" not find', e)
             return False

@@ -68,9 +68,9 @@ class Saver:
             file.close()
 
     def read_file(self, file_name="random_text.csv"):
-        '''функция для чтения из файла
+        """функция для чтения из файла
         file_name - имя файла
-        возвращает массив строк'''
+        возвращает массив строк"""
         text = []
         with open(file_name, "r", newline="") as file:
             reader = csv.reader(file)

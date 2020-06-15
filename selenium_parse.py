@@ -11,11 +11,11 @@ class Bot:
         self.driver.save_screenshot('avito_screenshot.png')
 
     def tel_recogn(self):
-        image = Image.open('tel.gif')
+        image = Image.open('results/tel.gif')
         print(image_to_string(image))
 
     def crop(self, location, size):
-        image = Image.open('avito_screenshot.png')
+        image = Image.open('results/avito_screenshot.png')
 
         x = location['x']
         y = location['y']

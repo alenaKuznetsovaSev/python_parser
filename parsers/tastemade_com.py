@@ -1,17 +1,9 @@
-from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
-
-import logging
-from random import choice
-from concurrent.futures import ThreadPoolExecutor
-import datetime
-import requests
 from bs4 import BeautifulSoup
-import pprint
-from Parser import Parser
+from parsers.parser import Parser
 import config as cfg
-from Saver import Saver
 from abc import ABC
-import Log
+
+
 # base_url = 'https://www.tastemade.com/food'
 # tables_name = 'links4parse'
 

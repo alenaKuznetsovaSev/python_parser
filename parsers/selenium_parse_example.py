@@ -2,6 +2,7 @@ from selenium import webdriver
 from time import sleep
 from PIL import Image
 from pytesseract import image_to_string
+
 class Bot:
     def __init__(self):
         self.driver = webdriver.Firefox()
@@ -11,11 +12,11 @@ class Bot:
         self.driver.save_screenshot('avito_screenshot.png')
 
     def tel_recogn(self):
-        image = Image.open('results/tel.gif')
+        image = Image.open('../results/tel.gif')
         print(image_to_string(image))
 
     def crop(self, location, size):
-        image = Image.open('results/avito_screenshot.png')
+        image = Image.open('../results/avito_screenshot.png')
 
         x = location['x']
         y = location['y']

@@ -8,11 +8,11 @@ from selenium.webdriver.support.ui import Select
 from time import sleep
 from PIL import Image
 from pytesseract import image_to_string
-import Log
+import log
 from selenium.webdriver.common.keys import Keys
 
-from DBcm import UseDatabase
-from Saver import Saver
+from db_classes.database_connector import UseDatabase
+from db_classes.saver import Saver
 import config as cfg
 import random
 
@@ -43,7 +43,7 @@ class Bot:
         self.driver.set_window_position(0, 0)
         self.driver.set_window_size(self.monitor_width, self.monitor_height)
         self.driver.set_page_load_timeout(5)  # seconds
-        self.logger = Log.get_logger('bot')
+        self.logger = log.get_logger('bot')
         self.saver = saver
 
     def take_screenshot(self):
@@ -56,14 +56,14 @@ class Bot:
 
     def tel_recogn(self):
         """распознаем телефон на картинке"""
-        image = Image.open('results/tel.gif')
+        image = Image.open('../results/tel.gif')
         print(image_to_string(image))
 
     def crop(self, location, size) -> bool:
         """вырезаем кртинку с телефоном из всплывающего окна avito и помещаем ее в tel.gif"""
         image = None
         try:
-            image = Image.open('results/avito_screenshot.png')
+            image = Image.open('../results/avito_screenshot.png')
         except Exception as e:
             self.logger.error('"avito_screenshot.png" not find', e)
             return False
@@ -79,8 +79,8 @@ class Bot:
         """считываем cookie из файла cookies.pkl или выходим с ошибкой"""
         cookies = []
         try:
-            pickle.dump(self.driver.get_cookies(), open("cookies.pkl", "a+b"))
-            cookies = pickle.load(open('cookies.pkl', 'r+b'))
+            pickle.dump(self.driver.get_cookies(), open("../cookies.pkl", "a+b"))
+            cookies = pickle.load(open('../cookies.pkl', 'r+b'))
         except Exception as e:
             self.logger.error('Cookies file "cookie.pkl" not find', e)
         for cookie in cookies:
@@ -195,9 +195,7 @@ class Bot:
 
         self.driver.close()
         # sleep(3)
-        #self.take_screenshot()
-
-
+        # self.take_screenshot()
 
 
 def main():

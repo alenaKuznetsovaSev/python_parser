@@ -1,5 +1,5 @@
 import re
-import Log
+import log
 import csv
 
 
@@ -7,7 +7,7 @@ class Saver:
     """сохраняет результаты в SQL"""
 
     def __init__(self, cursor):
-        self.logger = Log.get_logger(__name__)
+        self.logger = log.get_logger(__name__)
         self.logger.debug('Saver was created')
         self.cursor = cursor
 

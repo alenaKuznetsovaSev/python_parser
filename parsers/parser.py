@@ -2,9 +2,8 @@ from abc import ABC, abstractmethod
 from bs4 import BeautifulSoup
 import config as cfg
 import requests
+import log
 from main import saver, proxy_manager
-import Log
-
 
 class Parser(ABC):
     """абстрактный, его потомки собирают информацию со страниц в словари для передачи Saver`y"""
@@ -18,7 +17,7 @@ class Parser(ABC):
         self.base_url = base_url
         self.saver = saver
         self.proxy_manager = proxy_manager
-        self.logger = Log.get_logger(__name__)
+        self.logger = log.get_logger(__name__)
 
     @abstractmethod
     def get_pagination_links(self, url) -> list:

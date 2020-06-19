@@ -12,7 +12,8 @@ thread_pool_workers = 50
 
 custom_splitter = 'MyCuStOmSpLiTer'
 
-LOG_FILE = "my_app.log"
+LOG_FILE = "log/my_app_log"
+
 
 def random_headers() -> {}:
     """create one random http header"""

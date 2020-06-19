@@ -4,7 +4,7 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 from random import choice
-import Log
+import log
 
 
 class ProxyManager:
@@ -15,7 +15,7 @@ class ProxyManager:
         self.thread_pool = ThreadPoolExecutor(max_workers=cfg.thread_pool_workers)
         self.proxy_options = {}
         self.proxies = []
-        self.logger = Log.get_logger(__name__)
+        self.logger = log.get_logger(__name__)
 
     def get_proxies(self) -> 'list of proxies':
         """отдает список живых прокси,

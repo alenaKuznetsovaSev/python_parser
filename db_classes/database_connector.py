@@ -1,19 +1,22 @@
 import mysql.connector
 
+
 class ConnectionError(Exception):
     pass
+
 
 class CredentialsError(Exception):
     pass
 
+
 class SQLError(Exception):
     pass 
+
 
 class UseDatabase:
 
     def __init__(self, config: dict) -> None:     
         self.configuration = config
-
 
     def __enter__(self) -> 'cursor':
         try:
@@ -24,8 +27,7 @@ class UseDatabase:
             raise ConnectionError(err)
         except mysql.connector.errors.ProgrammingError as err:
             raise CredentialsError(err)   
-        
-            
+
     def __exit__(self, ext_type, exc_value, exc_trace) -> None :
         self.conn.commit()
         self.cursor.close()
@@ -34,4 +36,3 @@ class UseDatabase:
             raise SQLError(exc_value)
         elif ext_type:
             raise ext_type(exc_value)
-        

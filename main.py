@@ -1,12 +1,12 @@
-from DBcm import UseDatabase
-from Saver import Saver
-from Proxy_manager import ProxyManager
+from db_classes.database_connector import UseDatabase
+from db_classes.saver import Saver
+from proxy_manager import ProxyManager
 import config as cfg
-from tastemade_com_food import Tastemade_com_food
-import Log
+from parsers.tastemade_com import Tastemade_com_food
+import log
 
 if __name__ == '__main__':
-    main_logger = Log.get_logger(__name__)
+    main_logger = log.get_logger(__name__)
     main_logger.info('program started')
     with UseDatabase(cfg.dbconfig) as cursor:
         saver = Saver(cursor)

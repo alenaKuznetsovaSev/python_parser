@@ -1,0 +1,33 @@
+2020-05-29 13:41:17,428 — Proxy_manager — DEBUG — в списке proxies[] нет живых. Запрашиваю новый список.
+2020-05-29 13:41:17,428 — Proxy_manager — DEBUG — start update_proxies
+2020-05-29 13:41:17,428 — Proxy_manager — DEBUG — start update_proxies_pretenders
+2020-05-29 13:41:18,002 — Proxy_manager — WARNING — get no proxies in update_proxies_pretenders
+2020-05-29 13:41:18,002 — Proxy_manager — WARNING — bad header - {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'Accept-Encoding': 'br;q=1.0, gzip;q=0.8, *;q=0.1', 'Accept-Language': 'ru, en-gb'}
+2020-05-29 13:41:18,003 — Proxy_manager — DEBUG — update headers
+2020-05-29 13:41:18,003 — Proxy_manager — DEBUG — call update_proxies_pretenders again
+2020-05-29 13:41:18,003 — Proxy_manager — DEBUG — start update_proxies_pretenders
+2020-05-29 13:41:18,483 — Proxy_manager — DEBUG — useful headers - {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Encoding': 'gzip', 'Accept-Language': 'it, en-gb'}
+2020-05-29 13:41:18,483 — Proxy_manager — DEBUG — update_proxies_pretenders done 300
+2020-05-29 13:41:18,483 — Proxy_manager — DEBUG — update_proxies_pretenders done 300
+2020-05-29 13:41:18,484 — Proxy_manager — DEBUG — start refresh_proxies_status
+2020-05-29 13:42:02,268 — phys teh — INFO — program started
+2020-05-29 13:42:14,529 — phys teh — INFO — program started
+2020-05-29 13:43:25,894 — phys teh — INFO — program started
+2020-05-29 13:43:50,340 — phys teh — INFO — program started
+2020-05-29 13:44:12,100 — phys teh — INFO — program started
+2020-05-29 13:44:22,451 — phys teh — INFO — program started
+2020-05-29 13:53:30,124 — phys teh — INFO — program started
+2020-05-29 13:53:40,399 — phys teh — INFO — program started
+2020-05-29 13:53:40,403 — Saver — DEBUG — Saver was created
+2020-05-29 13:54:09,510 — phys teh — INFO — program started
+2020-05-29 13:54:09,514 — Saver — DEBUG — Saver was created
+2020-05-29 13:57:12,248 — phys teh — INFO — program started
+2020-05-29 13:57:12,252 — Saver — DEBUG — Saver was created
+2020-05-29 13:57:51,428 — phys teh — INFO — program started
+2020-05-29 13:57:51,432 — Saver — DEBUG — Saver was created
+2020-05-29 13:58:51,577 — phys teh — INFO — program started
+2020-05-29 13:58:51,581 — Saver — DEBUG — Saver was created
+2020-05-29 14:00:56,192 — phys teh — INFO — program started
+2020-05-29 14:00:56,196 — Saver — DEBUG — Saver was created
+2020-05-29 14:05:09,135 — phys teh — INFO — program started
+2020-05-29 14:05:09,140 — Saver — DEBUG — Saver was created
